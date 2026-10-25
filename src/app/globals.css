@@ -3,25 +3,69 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #FAF7F2;
+  --foreground: #0F2418;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    border-color: #E2D9CC;
+  }
+
+  body {
+    background-color: #FAF7F2;
+    color: #0F2418;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    letter-spacing: -0.015em;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F3EDE2;
+}
+::-webkit-scrollbar-thumb {
+  background: #79927A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #183B28;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Smooth micro-transitions */
+.transition-smooth {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Subtle botanical pattern overlay */
+.bg-botanical-pattern {
+  background-image: radial-gradient(#183B28 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+  opacity: 0.04;
+}
+
+/* Accent decorative lines */
+.divider-ayurveda {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.divider-ayurveda::before,
+.divider-ayurveda::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #DED2C1;
+}
+.divider-ayurveda:not(:empty)::before {
+  margin-right: 1rem;
+}
+.divider-ayurveda:not(:empty)::after {
+  margin-left: 1rem;
 }
