@@ -17,12 +17,17 @@ export function HeroSection() {
           <div className="lg:col-span-7 space-y-4 sm:space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-ayur-sageLight/70 border border-ayur-sage/30 text-xs font-semibold text-ayur-primary uppercase tracking-wider">
               <Leaf className="w-3.5 h-3.5 text-ayur-primary fill-ayur-primary/20" />
-              <span>Authentic Classical Swarasa &amp; Decoctions</span>
+              <span>SARVA NATURAL • Authentic Classical Formulations</span>
             </div>
 
-            <h1 className="font-serif text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-ayur-dark tracking-tight leading-[1.12]">
-              Pure Ayurvedic Formulations for Mind, Body &amp; Soul
-            </h1>
+            <div>
+              <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-ayur-dark tracking-tight leading-[1.12]">
+                Earth &bull; Health &bull; Wellness
+              </h1>
+              <p className="font-serif text-lg sm:text-2xl text-ayur-primary font-medium tracking-tight mt-1 sm:mt-2">
+                Pure Ayurvedic Formulations for Mind, Body &amp; Spirit
+              </p>
+            </div>
 
             <p className="text-sm sm:text-lg text-ayur-muted font-serif italic max-w-xl leading-relaxed">
               &ldquo;When diet is wrong, medicine is of no use. When diet is correct, medicine is of no need.&rdquo;

@@ -61,7 +61,7 @@ export function ManufacturingTrust() {
           </h2>
           <div className="w-16 h-0.5 bg-ayur-gold mx-auto my-3 sm:my-4" />
           <p className="text-xs sm:text-base text-stone-600 leading-relaxed font-sans">
-            Unlike commercial factories that churn out reconstituted powders and sweetened concentrates, Krishna&apos;s Herbal &amp; Ayurveda adheres strictly to classical pharmaceutical procedures (Bhaishajya Kalpana).
+            Unlike commercial factories that churn out reconstituted powders and sweetened concentrates, SARVA NATURAL adheres strictly to classical pharmaceutical procedures (Bhaishajya Kalpana).
           </p>
         </div>
 

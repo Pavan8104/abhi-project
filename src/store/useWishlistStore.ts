@@ -44,7 +44,7 @@ export const useWishlistStore = create<WishlistState>()(
       },
     }),
     {
-      name: "krishna-ayurveda-wishlist",
+      name: "sarva-natural-wishlist",
       storage: createJSONStorage(() => localStorage),
       partialize: (state) => ({
         wishlistIds: state.wishlistIds,

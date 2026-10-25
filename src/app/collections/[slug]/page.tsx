@@ -16,8 +16,8 @@ export async function generateMetadata({
           .join(" ");
 
   return {
-    title: `${formattedTitle} | Krishna's Herbal & Ayurveda`,
-    description: `Browse authentic classical Ayurvedic ${formattedTitle.toLowerCase()} handcrafted from wild herbs.`,
+    title: `${formattedTitle} | SARVA NATURAL`,
+    description: `Browse authentic classical Ayurvedic ${formattedTitle.toLowerCase()} handcrafted from wild herbs by SARVA NATURAL.`,
   };
 }
 

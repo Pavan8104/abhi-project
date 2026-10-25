@@ -21,10 +21,13 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Krishna's Herbal & Ayurveda | Authentic Classical Formulations",
+  title: "SARVA NATURAL | Earth • Health • Wellness — Classical Formulations",
   description:
-    "Experience pure, authentic Ayurvedic juices, classical kwaths, cold-pressed tailas, and herbal formulations crafted from wild-harvested botanicals.",
+    "SARVA NATURAL — Earth • Health • Wellness. Pure, authentic Ayurvedic juices, classical kwaths, cold-pressed tailas, and herbal formulations crafted from ethically harvested botanicals.",
   keywords: [
+    "SARVA NATURAL",
+    "Sarva Natural Ayurveda",
+    "Earth Health Wellness",
     "Ayurveda",
     "Amla Juice",
     "Triphala",
@@ -34,6 +37,13 @@ export const metadata: Metadata = {
     "Kumkumadi Tailam",
     "Ayurvedic Doctor Consultation",
   ],
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-icon.png" }],
+  },
 };
 
 export default function RootLayout({

@@ -3,8 +3,8 @@ import { CatalogView } from "@/components/catalog/CatalogView";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Shop All Ayurvedic Formulations | Krishna's Herbal & Ayurveda",
-  description: "Browse authentic wild-harvested juices, herbal oils, and classical kwaths.",
+  title: "Shop All Ayurvedic Formulations | SARVA NATURAL",
+  description: "Browse authentic wild-harvested juices, herbal oils, and classical kwaths crafted by SARVA NATURAL.",
 };
 
 export default function ShopPage() {

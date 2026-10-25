@@ -7,6 +7,18 @@ import { CartItem, CouponCode } from "@/types/cart";
 
 export const AVAILABLE_COUPONS: CouponCode[] = [
   {
+    code: "SARVA10",
+    discountPercentage: 10,
+    description: "10% off on authentic SARVA NATURAL formulations",
+    minOrderValue: 399,
+  },
+  {
+    code: "SARVA15",
+    discountPercentage: 15,
+    description: "15% off on orders above ₹999",
+    minOrderValue: 999,
+  },
+  {
     code: "AYURVEDA10",
     discountPercentage: 10,
     description: "10% off on authentic Ayurvedic formulations",
@@ -122,7 +134,7 @@ export const useCartStore = create<CartState>()(
         const subtotal = get().getSubtotal();
 
         if (!found) {
-          set({ couponError: "Invalid coupon code. Try 'AYURVEDA10'." });
+          set({ couponError: "Invalid coupon code. Try 'SARVA10'." });
           return false;
         }
 
@@ -175,7 +187,7 @@ export const useCartStore = create<CartState>()(
       },
     }),
     {
-      name: "krishna-ayurveda-cart",
+      name: "sarva-natural-cart",
       storage: createJSONStorage(() => localStorage),
       partialize: (state) => ({
         items: state.items,

@@ -165,7 +165,7 @@ export function CartDrawer() {
                   <form onSubmit={handleApplyCoupon} className="flex gap-2">
                     <input
                       type="text"
-                      placeholder="Coupon code (e.g. AYURVEDA10)"
+                      placeholder="Coupon code (e.g. SARVA10)"
                       value={couponInput}
                       onChange={(e) => setCouponInput(e.target.value)}
                       className="flex-1 px-3 py-1.5 text-xs border border-stone-300 rounded focus:outline-none focus:ring-1 focus:ring-ayur-primary uppercase"

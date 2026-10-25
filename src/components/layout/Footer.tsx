@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Leaf, ShieldCheck, Award, Heart, Mail, Phone, MapPin } from "lucide-react";
 import { HEALTH_CONCERNS, FORM_FACTORS } from "@/data/categories";
 
@@ -60,16 +61,22 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10">
           {/* Brand Column */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-9 h-9 rounded bg-ayur-primary flex items-center justify-center text-ayur-gold">
-                <Leaf className="w-5 h-5" />
+            <div className="flex items-center gap-3.5 mb-4">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-ayur-primary/60 border-2 border-ayur-gold/40 overflow-hidden flex items-center justify-center flex-shrink-0">
+                <Image
+                  src="/images/sarva-natural-emblem.png"
+                  alt="SARVA NATURAL"
+                  width={56}
+                  height={56}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div>
-                <span className="font-serif text-xl font-bold tracking-tight text-white block">
-                  KRISHNA&apos;S
+                <span className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-white block">
+                  SARVA NATURAL
                 </span>
-                <span className="text-[10px] tracking-[0.2em] uppercase text-ayur-gold font-semibold">
-                  Herbal & Ayurveda
+                <span className="text-[10px] sm:text-[11px] tracking-[0.24em] uppercase text-ayur-gold font-bold">
+                  EARTH &bull; HEALTH &bull; WELLNESS
                 </span>
               </div>
             </div>
@@ -83,11 +90,11 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-ayur-gold flex-shrink-0" />
-                <span>+91 (0) 1800-AYURVEDA (Demo Helpline: 9 AM - 7 PM IST)</span>
+                <span>+91 (0) 1800-SARVA-NATURAL (Demo Helpline: 9 AM - 7 PM IST)</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-ayur-gold flex-shrink-0" />
-                <span>care@krishnaayurved-demo.com</span>
+                <span>care@sarvanatural.com</span>
               </div>
             </div>
           </div>
@@ -188,7 +195,7 @@ export function Footer() {
           </div>
 
           <div className="mt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-ayur-sand/60 gap-4">
-            <p>&copy; {new Date().getFullYear()} Krishna&apos;s Herbal & Ayurveda Demo Store. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} SARVA NATURAL Demo Store. All rights reserved.</p>
             <div className="flex items-center gap-4 text-[11px]">
               <span>Privacy Policy</span>
               <span>•</span>

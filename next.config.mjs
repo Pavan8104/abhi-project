@@ -16,7 +16,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'krishnaayurved.com',
+        hostname: 'sarvanatural.com',
       },
     ],
   },

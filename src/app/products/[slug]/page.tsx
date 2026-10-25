@@ -23,12 +23,12 @@ export async function generateMetadata({
   const product = getProductBySlug(params.slug);
   if (!product) {
     return {
-      title: "Product Not Found | Krishna's Herbal & Ayurveda",
+      title: "Product Not Found | SARVA NATURAL",
     };
   }
 
   return {
-    title: `${product.name} (${product.sanskritName}) | Krishna's Herbal & Ayurveda`,
+    title: `${product.name} (${product.sanskritName}) | SARVA NATURAL`,
     description: product.shortDescription,
   };
 }

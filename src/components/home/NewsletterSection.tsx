@@ -15,7 +15,7 @@ export function NewsletterSection() {
   };
 
   const handleCopyCode = () => {
-    navigator.clipboard.writeText("AYURVEDA10");
+    navigator.clipboard.writeText("SARVA10");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -52,7 +52,7 @@ export function NewsletterSection() {
             </p>
             <div className="flex items-center justify-between p-2.5 bg-ayur-sageSubtle rounded border border-ayur-sage/40">
               <span className="font-mono font-bold text-sm text-ayur-primary tracking-wider">
-                AYURVEDA10
+                SARVA10
               </span>
               <button
                 onClick={handleCopyCode}

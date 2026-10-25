@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 :root {
-  --background: #FAF7F2;
-  --foreground: #0F2418;
+  --background: #F7F4EE;
+  --foreground: #09231B;
 }
 
 @layer base {
   * {
-    border-color: #E2D9CC;
+    border-color: #E2DACD;
   }
 
   body {
-    background-color: #FAF7F2;
-    color: #0F2418;
+    background-color: #F7F4EE;
+    color: #09231B;
     overflow-x: hidden;
   }
 
@@ -29,14 +29,14 @@
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #F3EDE2;
+  background: #EFE9DF;
 }
 ::-webkit-scrollbar-thumb {
   background: #79927A;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #183B28;
+  background: #0E382B;
 }
 
 /* Smooth micro-transitions */
@@ -46,7 +46,7 @@
 
 /* Subtle botanical pattern overlay */
 .bg-botanical-pattern {
-  background-image: radial-gradient(#183B28 0.5px, transparent 0.5px);
+  background-image: radial-gradient(#0E382B 0.5px, transparent 0.5px);
   background-size: 24px 24px;
   opacity: 0.04;
 }

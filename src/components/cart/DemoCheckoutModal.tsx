@@ -52,7 +52,7 @@ export function DemoCheckoutModal() {
 
   const handleSimulatePlaceOrder = (e: React.FormEvent) => {
     e.preventDefault();
-    const demoId = `AYUR-${Math.floor(100000 + Math.random() * 900000)}`;
+    const demoId = `SARVA-${Math.floor(100000 + Math.random() * 900000)}`;
     setOrderId(demoId);
     setStep("confirmation");
     clearCart();

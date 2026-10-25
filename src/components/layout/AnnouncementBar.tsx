@@ -22,7 +22,7 @@ export function AnnouncementBar() {
           </span>
           <span className="hidden sm:inline text-ayur-sand/60">|</span>
           <span className="hidden sm:inline text-ayur-cream/80">
-            Use Code: <span className="bg-ayur-primary/80 px-1.5 py-0.5 rounded text-ayur-goldMuted font-mono font-bold tracking-wider">AYURVEDA10</span> for 10% off
+            Use Code: <span className="bg-ayur-primary/80 px-1.5 py-0.5 rounded text-ayur-goldMuted font-mono font-bold tracking-wider">SARVA10</span> for 10% off
           </span>
         </div>
 

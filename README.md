@@ -1,6 +1,6 @@
-# Krishna's Herbal & Ayurveda — Premium Storefront Demo
+# SARVA NATURAL — Earth • Health • Wellness | Premium Ayurvedic Storefront Demo
 
-A high-conversion, bespoke Ayurvedic e-commerce storefront frontend demo inspired by [Krishna's Herbal & Ayurveda](https://krishnaayurved.com/collections/all-products). Built with Next.js 14 App Router, TypeScript, Tailwind CSS, Radix UI primitives, and Zustand.
+A high-conversion, bespoke Ayurvedic e-commerce storefront frontend demo for **SARVA NATURAL** (Earth • Health • Wellness). Built with Next.js 14 App Router, TypeScript, Tailwind CSS, Radix UI primitives, and Zustand.
 
 Designed specifically for client presentations, this prototype demonstrates a luxury Vedic apothecary shopping experience without requiring any backend or database setup.
 
@@ -9,22 +9,23 @@ Designed specifically for client presentations, this prototype demonstrates a lu
 ## 🌿 Key Features & Implemented Interactions
 
 ### 1. Brand Identity & Design System
-- **Classical Ayurvedic Color Palette**: Warm ivory (`#FAF7F2`), deep botanical green (`#183B28`), muted sage (`#79927A`), and restrained terracotta clay (`#B85A3C`).
+- **Classical Ayurvedic Color Palette**: Natural parchment cream (`#F7F4EE` / `#EFE9DF`), deep botanical green (`#0E382B`), rich harvest gold (`#C59B4E`), muted sage (`#79927A`), and restrained terracotta clay (`#B85A3C`).
+- **Official Brand Mark**: Integrated SARVA NATURAL gold-and-green emblem and seal.
 - **Editorial Typography**: Cormorant Garamond serif headings paired with Plus Jakarta Sans body typography.
 - **Botanical Imagery & Fallback Protection**: Resilient `ImageWithFallback` component that gracefully renders an elegant leaf emblem if any remote image is unavailable.
 - **Zero AI-Slop**: Avoids generic templates, bubble pill cards, or emojis; features authentic Sanskrit terminology (*Swarasa*, *Kashayam*, *Kwath*, *Tridosha*, *Anupana*).
 
 ### 2. Complete Storefront Architecture
-- **Announcement Bar**: Free express shipping progress towards ₹399 and coupon highlight (`AYURVEDA10`).
-- **Header**: Responsive branding, instant live search trigger, category mega-dropdown, wishlist badge counter, cart preview badge, and quick consultation CTA.
+- **Announcement Bar**: Free express shipping progress towards ₹399 and coupon highlight (`SARVA10`).
+- **Header**: Responsive branding with official SARVA NATURAL emblem, instant live search trigger, category mega-dropdown, wishlist badge counter, cart preview badge, and quick consultation CTA.
 - **Editorial Hero Section**: Evocative classical Sanskrit quote from the *Charaka Samhita*, primary shop CTA, and AYUSH / GMP trust badges.
 - **Shop-by-Concern Tiles**: Visual navigation for 7 primary health concerns (Digestion, Blood Sugar, Liver Detox, Immunity, Hair & Skin, Joint Care, Women's Wellness).
 - **Interactive Bestseller Showcase**: Tabbed bestsellers with instant Quick Add and savings calculations.
-- **Manufacturing & Quality Trust Section**: Detailed breakdown of the 16-Hour Slow Kashayam method, cold-pressed extraction, ICP-MS heavy metal screening, and Surya Tapi solar purification.
+- **Manufacturing & Quality Trust Section**: Classical pharmaceutical procedures (Bhaishajya Kalpana), 16-Hour Slow Kashayam method, cold-pressed extraction, ICP-MS heavy metal screening, and Surya Tapi solar purification.
 - **Vaidya Consultation Promotion**: Dedicated banner connecting users to Ayurvedic doctors.
 - **Honest Testimonials**: Verified customer feedback cards clearly marked as demo presentation content.
-- **Interactive Newsletter**: Instant coupon generation and clipboard copy feedback.
-- **Compliance Footer**: Complete site directory, substantiated classical disclaimers, and demo safety notices.
+- **Interactive Newsletter**: Instant coupon generation (`SARVA10`) and clipboard copy feedback.
+- **Compliance Footer**: Complete site directory, official Sarva Natural contact details, substantiated classical disclaimers, and demo safety notices.
 
 ### 3. Product Catalog & Off-Canvas Radix Filter Drawer
 - **16 Authentic Formulations**: Raw Wild Amla Juice, Pure Aloe Vera, Classical Triphala, Diabic Care, Bhringraj Hair Oil, Kumkumadi Tailam, Shuddha Shilajit Resin, Ashwagandha Ghan Vati, etc.
