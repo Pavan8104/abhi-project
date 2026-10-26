@@ -26,11 +26,11 @@ interface FiltersDrawerProps {
 }
 
 const AVAILABLE_ATTRIBUTES = [
-  "GMP Certified",
-  "Raw & Unpasteurized",
-  "Cold Pressed",
-  "No Added Sugar",
-  "Wild Harvested",
+  "GMP Certified Facility",
+  "100% Vegetarian Capsules",
+  "Zero Heavy Metals (ICP-MS Tested)",
+  "No Synthetic Binders or Fillers",
+  "Organic Farm Direct",
 ];
 
 export function ProductFiltersDrawer({

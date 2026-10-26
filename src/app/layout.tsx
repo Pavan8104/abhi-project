@@ -23,19 +23,17 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "SARVA NATURAL | Earth • Health • Wellness — Classical Formulations",
   description:
-    "SARVA NATURAL — Earth • Health • Wellness. Pure, authentic Ayurvedic juices, classical kwaths, cold-pressed tailas, and herbal formulations crafted from ethically harvested botanicals.",
+    "SARVA NATURAL — Earth • Health • Wellness. Pure, authentic Ayurvedic capsules: Moringa, Triphala, and Ashwagandha crafted from sustainably harvested wild botanicals.",
   keywords: [
     "SARVA NATURAL",
     "Sarva Natural Ayurveda",
     "Earth Health Wellness",
     "Ayurveda",
-    "Amla Juice",
-    "Triphala",
-    "Aloe Vera Juice",
-    "Diabic Care",
-    "Shilajit",
-    "Kumkumadi Tailam",
-    "Ayurvedic Doctor Consultation",
+    "Moringa Capsules",
+    "Triphala Capsules",
+    "Ashwagandha Capsules",
+    "Organic Ayurvedic Herbs",
+    "Pure Botanical Nutrition",
   ],
   icons: {
     icon: [

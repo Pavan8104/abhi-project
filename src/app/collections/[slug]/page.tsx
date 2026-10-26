@@ -2,6 +2,15 @@ import React, { Suspense } from "react";
 import { CatalogView } from "@/components/catalog/CatalogView";
 import { Metadata } from "next";
 
+export async function generateStaticParams() {
+  return [
+    { slug: "all-products" },
+    { slug: "bestsellers" },
+    { slug: "herbal-wellness" },
+    { slug: "daily-wellness" },
+  ];
+}
+
 export async function generateMetadata({
   params,
 }: {

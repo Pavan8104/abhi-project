@@ -1,51 +1,51 @@
 "use client";
 
 import React from "react";
-import { Award, ShieldCheck, Clock, Leaf, FlaskConical, Sun } from "lucide-react";
+import { Award, ShieldCheck, Leaf, FlaskConical, Sun, CheckCircle2 } from "lucide-react";
 
 export function ManufacturingTrust() {
   const pillars = [
     {
-      icon: Clock,
-      title: "16-Hour Kashayam Decoctions",
-      sanskrit: "कषाय कल्पना (Kashaya Kalpana)",
-      description:
-        "We simmer raw botanicals in heavy copper and stainless cauldrons until the water volume reduces to exactly one-fourth, liberating heat-stable phytocompounds.",
-    },
-    {
       icon: Leaf,
-      title: "Fresh Swarasa Within 48 Hours",
-      sanskrit: "स्वरस निष्कर्षण (Swarasa Vidhi)",
+      title: "100% Vegetarian HPMC Capsules",
+      sanskrit: "शुद्ध वनस्पति (Plant-Based)",
       description:
-        "Wild Pratapgarh amla and Thar desert aloe are washed in natural spring water and cold-pressed without heating or dilution to preserve active enzymes.",
+        "Every formulation is encased in pharmaceutical-grade vegetarian cellulose (HPMC). Absolutely zero animal gelatin, bovine byproducts, or synthetic coatings.",
     },
     {
       icon: FlaskConical,
-      title: "4-Stage Heavy Metal & Toxin Screening",
-      sanskrit: "विशद परीक्षा (Shodhana Pariksha)",
+      title: "ICP-MS Heavy Metal Tested",
+      sanskrit: "विशद परीक्षा (Purity Tested)",
       description:
-        "Every batch is tested via ICP-MS spectrometry for Lead, Mercury, Arsenic, Cadmium, and 120+ organophosphate pesticides to meet stringent safety ceilings.",
-    },
-    {
-      icon: Sun,
-      title: "Surya Tapi Natural Purification",
-      sanskrit: "सूर्य तापी संस्कार (Surya Tapi)",
-      description:
-        "Himalayan Shilajit undergoes traditional solar purification through successive Triphala baths over 7 sunny days, ensuring fulvic acid integrity without scorching.",
+        "Every single batch is tested via ICP-MS spectrometry for Lead, Mercury, Arsenic, and Cadmium, strictly complying with safety thresholds.",
     },
     {
       icon: Award,
-      title: "AYUSH GMP Licensed Facility",
+      title: "GMP (Schedule T) Facility",
       sanskrit: "प्रमाणित निर्माण (Certified Facility)",
       description:
-        "Manufactured in a climate-controlled state-of-the-art facility adhering to Good Manufacturing Practices (Schedule T) certified by the Ministry of AYUSH.",
+        "Produced in an audited, climate-controlled facility adhering to strict Good Manufacturing Practices certified by the Ministry of AYUSH.",
     },
     {
       icon: ShieldCheck,
-      title: "Zero Hidden Fillers or Refined Sugar",
+      title: "Zero Chemical Fillers or Flow Agents",
       sanskrit: "विशुद्ध द्रव्य (100% Active Actives)",
       description:
-        "We never adulterate our swarasa with high-fructose corn syrup, artificial coloring dyes, chemical thickeners, or sodium benzoate excess.",
+        "We never add magnesium stearate, silicon dioxide, artificial colors, maltodextrin, or synthetic preservatives to bulk up our capsules.",
+    },
+    {
+      icon: Sun,
+      title: "Shade-Dried Botanical Preservation",
+      sanskrit: "छाया शुष्क (Chhaya Shushka)",
+      description:
+        "Fresh Moringa leaves and Withania roots are dried under controlled low temperatures to keep fragile polyphenols and withanolides intact.",
+    },
+    {
+      icon: CheckCircle2,
+      title: "Authentic Classical Formulations",
+      sanskrit: "शास्त्रोक्त योग (Shastrokta)",
+      description:
+        "Equal 1:1:1 Triphala ratio, organic Moringa oleifera extract, and root-only Ashwagandha formulated in full accordance with classical texts.",
     },
   ];
 
@@ -57,11 +57,11 @@ export function ManufacturingTrust() {
             Ancient Science • Modern Verification
           </span>
           <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-ayur-dark">
-            The Classical Kashayam &amp; Swarasa Standard
+            The SARVA NATURAL Quality Standard
           </h2>
           <div className="w-16 h-0.5 bg-ayur-gold mx-auto my-3 sm:my-4" />
           <p className="text-xs sm:text-base text-stone-600 leading-relaxed font-sans">
-            Unlike commercial factories that churn out reconstituted powders and sweetened concentrates, SARVA NATURAL adheres strictly to classical pharmaceutical procedures (Bhaishajya Kalpana).
+            Unlike commercial brands that hide behind proprietary blends and synthetic flow agents, SARVA NATURAL delivers transparent, standardized Ayurvedic botanicals tested for absolute purity.
           </p>
         </div>
 

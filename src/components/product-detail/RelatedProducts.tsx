@@ -27,7 +27,7 @@ export function RelatedProducts({ currentProduct }: RelatedProductsProps) {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 max-w-3xl">
         {related.map((prod) => (
           <ProductCard key={prod.id} product={prod} viewMode="grid" />
         ))}

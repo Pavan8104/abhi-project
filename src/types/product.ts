@@ -1,6 +1,7 @@
 export type FormFactor =
-  | "Juices"
+  | "Capsules"
   | "Tablets"
+  | "Juices"
   | "Churna/Powders"
   | "Resins"
   | "Herbal Oils"
@@ -8,9 +9,12 @@ export type FormFactor =
 
 export type HealthConcern =
   | "digestion"
+  | "immunity"
+  | "stress-sleep"
+  | "vitality"
+  | "daily-wellness"
   | "blood-sugar"
   | "liver-detox"
-  | "immunity"
   | "hair-skin"
   | "joint-care"
   | "womens-wellness";
@@ -41,7 +45,7 @@ export interface Product {
   name: string;
   sanskritName: string;
   subtitle: string;
-  category: "juices" | "tablets" | "powders" | "resins" | "oils" | "combos";
+  category: "capsules" | "juices" | "tablets" | "powders" | "resins" | "oils" | "combos";
   categoryLabel: string;
   formFactor: FormFactor;
   healthConcerns: HealthConcern[];

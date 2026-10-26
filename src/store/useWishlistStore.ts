@@ -16,7 +16,7 @@ interface WishlistState {
 export const useWishlistStore = create<WishlistState>()(
   persist(
     (set, get) => ({
-      wishlistIds: ["prod-amla-juice", "prod-kumkumadi-tailam"], // pleasant default demo state
+      wishlistIds: ["prod-moringa", "prod-ashwagandha"],
       isWishlistOpen: false,
 
       toggleWishlist: (productId: string) => {

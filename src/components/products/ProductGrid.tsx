@@ -22,7 +22,7 @@ export function ProductGrid({
       <div
         className={
           viewMode === "grid"
-            ? "grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6"
+            ? "grid grid-cols-1 min-[375px]:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6"
             : "flex flex-col gap-3 sm:gap-4"
         }
       >
@@ -77,7 +77,7 @@ export function ProductGrid({
     <div
       className={
         viewMode === "grid"
-          ? "grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6"
+          ? "grid grid-cols-1 min-[375px]:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6"
           : "flex flex-col gap-3 sm:gap-4"
       }
     >

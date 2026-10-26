@@ -220,11 +220,11 @@ export function ProductCard({ product, viewMode = "grid" }: ProductCardProps) {
         {/* Wishlist Button */}
         <button
           onClick={handleWishlistToggle}
-          className="absolute top-2 right-2 sm:top-2.5 sm:right-2.5 z-10 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-white/90 backdrop-blur-sm border border-stone-200/80 flex items-center justify-center text-ayur-dark hover:text-ayur-accent hover:bg-white transition-all shadow-sm"
+          className="absolute top-2 right-2 sm:top-2.5 sm:right-2.5 z-10 w-9 h-9 rounded-full bg-white/90 backdrop-blur-sm border border-stone-200/80 flex items-center justify-center text-ayur-dark hover:text-ayur-accent hover:bg-white transition-all shadow-sm"
           aria-label={isFavorited ? "Remove from wishlist" : "Save to wishlist"}
         >
           <Heart
-            className={`w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-200 ${
+            className={`w-4 h-4 transition-transform duration-200 ${
               isFavorited
                 ? "fill-ayur-accent text-ayur-accent scale-110"
                 : "group-hover:scale-105 stroke-[1.75]"
@@ -314,7 +314,7 @@ export function ProductCard({ product, viewMode = "grid" }: ProductCardProps) {
           <button
             onClick={handleQuickAdd}
             disabled={!selectedVariant.inStock}
-            className={`px-2 sm:px-3 py-1.5 rounded text-[11px] sm:text-xs font-semibold flex items-center gap-1 transition-all flex-shrink-0 ${
+            className={`px-3 sm:px-3.5 py-2 rounded text-[11px] sm:text-xs font-semibold flex items-center gap-1 transition-all flex-shrink-0 min-h-[38px] sm:min-h-[36px] ${
               justAdded
                 ? "bg-emerald-700 text-white"
                 : "bg-ayur-primary text-white hover:bg-ayur-secondary"

@@ -10,12 +10,12 @@ import { formatINR } from "@/lib/utils";
 import Link from "next/link";
 
 const POPULAR_SEARCHES = [
-  "Raw Amla Juice",
-  "Triphala Swarasa",
-  "Diabic Care",
-  "Shilajit Resin",
-  "Kumkumadi Tailam",
-  "Hair Oil",
+  "Moringa Capsules",
+  "Triphala Capsules",
+  "Ashwagandha",
+  "Daily Immunity",
+  "Digestion & Detox",
+  "Stress Relief",
 ];
 
 export function SearchModal() {
@@ -47,7 +47,7 @@ export function SearchModal() {
             <input
               type="text"
               autoFocus
-              placeholder="Search amla, triphala, digestion..."
+              placeholder="Search moringa, triphala, ashwagandha..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               className="w-full text-xs sm:text-sm text-ayur-dark placeholder:text-stone-400 focus:outline-none bg-transparent"

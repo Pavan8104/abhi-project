@@ -28,8 +28,8 @@ export default function ConsultationPage() {
       a: "No. This preliminary 15-minute guidance session is provided completely free of charge as part of our Ayurvedic wellness initiative.",
     },
     {
-      q: "Can I ask about specific products like Amla juice or Diabic Care?",
-      a: "Absolutely. The Vaidya will advise on optimal dosage timing (Anupana) and whether a given formulation suits your current bodily state.",
+      q: "Can I ask about specific products like Moringa, Triphala, or Ashwagandha?",
+      a: "Absolutely. The Vaidya will advise on optimal dosage timing (Anupana) and whether a given botanical formulation suits your current bodily state and wellness goals.",
     },
   ];
 

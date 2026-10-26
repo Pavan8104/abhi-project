@@ -4,7 +4,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Leaf, ShieldCheck, Award, Heart, Mail, Phone, MapPin } from "lucide-react";
-import { HEALTH_CONCERNS, FORM_FACTORS } from "@/data/categories";
 
 export function Footer() {
   return (
@@ -99,82 +98,104 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Health Goals */}
+          {/* The 3 Formulations */}
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-wider text-ayur-gold mb-4 font-sans">
-              Health Concerns
+              Our Formulations
             </h4>
             <ul className="space-y-2.5 text-xs text-ayur-sand/80">
-              {HEALTH_CONCERNS.slice(0, 5).map((c) => (
-                <li key={c.id}>
-                  <Link
-                    href={`/collections/all-products?concern=${c.id}`}
-                    className="hover:text-white transition-colors"
-                  >
-                    {c.title}
-                  </Link>
-                </li>
-              ))}
               <li>
-                <Link
-                  href="/collections/all-products"
-                  className="text-ayur-gold hover:underline inline-block mt-1"
-                >
-                  View All Categories &rarr;
+                <Link href="/products/moringa" className="hover:text-white transition-colors">
+                  Organic Moringa Capsules
+                </Link>
+              </li>
+              <li>
+                <Link href="/products/triphala" className="hover:text-white transition-colors">
+                  Classical Triphala Capsules
+                </Link>
+              </li>
+              <li>
+                <Link href="/products/ashwagandha" className="hover:text-white transition-colors">
+                  Shuddha Ashwagandha Capsules
+                </Link>
+              </li>
+              <li>
+                <Link href="/collections/all-products" className="text-ayur-gold hover:underline inline-block mt-1">
+                  Shop All 3 Products &rarr;
+                </Link>
+              </li>
+              <li>
+                <Link href="/collections/bestsellers" className="hover:text-white transition-colors">
+                  Bestsellers Collection
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Form Factors */}
+          {/* Company & Trust */}
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-wider text-ayur-gold mb-4 font-sans">
-              Classical Forms
+              About &amp; Trust
             </h4>
             <ul className="space-y-2.5 text-xs text-ayur-sand/80">
-              {FORM_FACTORS.map((f) => (
-                <li key={f.slug}>
-                  <Link
-                    href={`/collections/all-products?category=${f.slug}`}
-                    className="hover:text-white transition-colors"
-                  >
-                    {f.label}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link href="/pages/about-us" className="hover:text-white transition-colors">
+                  About SARVA NATURAL
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages/our-story" className="hover:text-white transition-colors">
+                  Our Founding Story
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages/quality" className="hover:text-white transition-colors">
+                  Quality &amp; Lab Standards
+                </Link>
+              </li>
+              <li>
+                <Link href="/pages/order-tracking" className="hover:text-white transition-colors">
+                  Track Consignment
+                </Link>
+              </li>
+              <li>
+                <Link href="/account" className="hover:text-white transition-colors">
+                  Patron Account
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Vaidya & Trust */}
+          {/* Support & Consultation */}
           <div>
             <h4 className="text-xs font-semibold uppercase tracking-wider text-ayur-gold mb-4 font-sans">
-              Consultation & Care
+              Support &amp; Care
             </h4>
             <ul className="space-y-2.5 text-xs text-ayur-sand/80">
               <li>
                 <Link href="/consultation" className="hover:text-white transition-colors">
-                  Book Vaidya Consultation
+                  Book Vaidya Call
                 </Link>
               </li>
               <li>
-                <Link href="/collections/all-products?category=combos" className="hover:text-white transition-colors">
-                  Super Saver Bundles
+                <Link href="/pages/faqs" className="hover:text-white transition-colors">
+                  Frequently Asked Questions
                 </Link>
               </li>
               <li>
-                <span className="text-ayur-sand/50 cursor-not-allowed">
-                  Dosha Prakriti Test (Coming Soon)
-                </span>
+                <Link href="/pages/contact-us" className="hover:text-white transition-colors">
+                  Contact Us
+                </Link>
               </li>
               <li>
-                <span className="text-ayur-sand/50 cursor-not-allowed">
-                  Track Demo Order
-                </span>
+                <Link href="/pages/shipping-policy" className="hover:text-white transition-colors">
+                  Shipping &amp; Delivery
+                </Link>
               </li>
               <li>
-                <span className="text-ayur-sand/50 cursor-not-allowed">
-                  Quality & Lab Certificates
-                </span>
+                <Link href="/pages/refund-policy" className="hover:text-white transition-colors">
+                  Returns &amp; Replacements
+                </Link>
               </li>
             </ul>
           </div>
@@ -185,23 +206,25 @@ export function Footer() {
           <div className="p-4 rounded bg-white/5 border border-white/10 text-[11px] text-ayur-sand/70 leading-relaxed space-y-2">
             <p>
               <strong className="text-ayur-gold font-semibold uppercase tracking-wider">
-                Demonstration Prototype Notice:
+                Production-Ready Storefront Architecture:
               </strong>{" "}
-              This website is an interactive high-fidelity frontend demonstration created to showcase a modern Ayurvedic e-commerce experience. No commercial transactions are completed, and no actual payment credentials are collected.
+              SARVA NATURAL exclusively formulates and dispatches authentic Moringa, Triphala, and Ashwagandha in 100% vegetarian capsules. Zero animal gelatin, no chemical binders, and laboratory tested for purity.
             </p>
             <p>
-              <strong className="text-white font-medium">Ayurvedic Regulatory Disclaimer:</strong> Formulations presented are traditional Ayurvedic proprietary dietary supplements and botanical tonics formulated in accordance with classical Indian texts. They are not intended to diagnose, mitigate, prevent, treat or cure any medical condition. Always consult a certified Ayurvedic practitioner or healthcare provider before commencing any herbal regimen.
+              <strong className="text-white font-medium">Ayurvedic Regulatory Disclaimer:</strong> Formulations presented are traditional Ayurvedic dietary supplements and classical herbal capsules formulated in accordance with the Ayurvedic Pharmacopoeia of India. They are not intended to diagnose, mitigate, prevent, treat, or cure any specific disease. Always consult a certified Ayurvedic practitioner or healthcare provider before commencing any herbal regimen.
             </p>
           </div>
 
           <div className="mt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-ayur-sand/60 gap-4">
-            <p>&copy; {new Date().getFullYear()} SARVA NATURAL Demo Store. All rights reserved.</p>
-            <div className="flex items-center gap-4 text-[11px]">
-              <span>Privacy Policy</span>
+            <p>&copy; {new Date().getFullYear()} SARVA NATURAL. All rights reserved.</p>
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-[11px]">
+              <Link href="/pages/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
               <span>•</span>
-              <span>Terms of Service</span>
+              <Link href="/pages/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link>
               <span>•</span>
-              <span>Shipping & Return Policy</span>
+              <Link href="/pages/shipping-policy" className="hover:text-white transition-colors">Shipping Policy</Link>
+              <span>•</span>
+              <Link href="/pages/refund-policy" className="hover:text-white transition-colors">Refund &amp; Cancellation Policy</Link>
             </div>
           </div>
         </div>

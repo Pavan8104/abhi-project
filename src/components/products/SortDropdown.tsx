@@ -20,14 +20,14 @@ const SORT_OPTIONS: { value: SortOption; label: string }[] = [
 export function SortDropdown({ currentSort, onSortChange }: SortDropdownProps) {
   return (
     <div className="relative inline-flex items-center gap-1.5">
-      <span className="text-xs text-ayur-muted font-medium hidden sm:inline">
+      <span className="text-xs text-ayur-muted font-medium hidden md:inline">
         Sort by:
       </span>
       <div className="relative">
         <select
           value={currentSort}
           onChange={(e) => onSortChange(e.target.value as SortOption)}
-          className="appearance-none bg-white border border-ayur-border/90 rounded text-xs font-medium text-ayur-dark pl-3 pr-8 py-2 hover:border-ayur-primary focus:outline-none focus:ring-1 focus:ring-ayur-primary cursor-pointer shadow-sm transition-colors"
+          className="appearance-none bg-ayur-cream/50 sm:bg-white border border-ayur-border/90 rounded-full text-xs font-medium text-ayur-dark pl-3.5 pr-8 py-1.5 hover:border-ayur-primary focus:outline-none focus:ring-1 focus:ring-ayur-primary cursor-pointer shadow-xs transition-colors"
           aria-label="Sort products by"
         >
           {SORT_OPTIONS.map((opt) => (

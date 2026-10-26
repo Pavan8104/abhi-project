@@ -37,7 +37,7 @@ export function HeroSection() {
             </p>
 
             <p className="text-xs sm:text-base text-stone-700 max-w-xl leading-relaxed font-sans">
-              Crafted from wild-harvested herbs cold-pressed within 48 hours of picking. Unpasteurized, zero added sugar, and simmered in classical copper cauldrons according to 5,000-year-old Vedic scriptures.
+              Three cornerstone Ayurvedic botanicals — Moringa for whole-food vitality, Triphala for daily colon detoxification, and Ashwagandha for stress relief and restorative rest. 100% vegetarian capsules, heavy metal tested, and zero synthetic fillers.
             </p>
 
             {/* CTAs */}
@@ -46,7 +46,7 @@ export function HeroSection() {
                 href="/collections/all-products"
                 className="px-6 sm:px-7 py-3.5 sm:py-4 bg-ayur-primary text-white font-semibold text-xs sm:text-sm uppercase tracking-wider rounded hover:bg-ayur-secondary transition-all shadow-md flex items-center justify-center gap-2 group active:scale-[0.99]"
               >
-                <span>Explore All Formulations</span>
+                <span>Shop The 3 Formulations</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
 
@@ -63,15 +63,15 @@ export function HeroSection() {
             <div className="pt-4 sm:pt-6 border-t border-stone-200/80 grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-4 text-xs">
               <div className="flex items-center gap-2">
                 <ShieldCheck className="w-4 h-4 text-ayur-primary flex-shrink-0" />
-                <span className="font-medium text-stone-700">AYUSH Certified Facility</span>
+                <span className="font-medium text-stone-700">GMP Certified Facility</span>
               </div>
               <div className="flex items-center gap-2">
                 <Award className="w-4 h-4 text-ayur-primary flex-shrink-0" />
-                <span className="font-medium text-stone-700">100% Raw Decoctions</span>
+                <span className="font-medium text-stone-700">100% Veg Capsules</span>
               </div>
               <div className="flex items-center gap-2">
                 <Leaf className="w-4 h-4 text-ayur-primary flex-shrink-0" />
-                <span className="font-medium text-stone-700">Wild-Harvested</span>
+                <span className="font-medium text-stone-700">Lab Purity Tested</span>
               </div>
             </div>
           </div>
@@ -84,12 +84,12 @@ export function HeroSection() {
 
               <div className="relative rounded-lg overflow-hidden shadow-elevated bg-white border border-ayur-border aspect-[4/5]">
                 <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=1000&q=80"
-                  alt="Ayurvedic herbs, raw amla and classical decoction preparation"
+                  src="/images/products/moringa.jpeg"
+                  alt="SARVA NATURAL Moringa, Triphala and Ashwagandha Capsules"
                   fill
                   priority
-                  className="object-cover object-center"
-                  fallbackTitle="Ayurvedic Botanical Craft"
+                  className="object-contain p-6 bg-ayur-parchment/40"
+                  fallbackTitle="SARVA NATURAL Classical Formulations"
                 />
 
                 {/* Floating Highlight Card */}
@@ -97,20 +97,20 @@ export function HeroSection() {
                   <div className="flex items-center justify-between">
                     <div>
                       <span className="text-[10px] uppercase font-bold text-ayur-accent tracking-wider block">
-                        Signature Formulation
+                        Featured Formulation
                       </span>
                       <h4 className="font-serif text-sm font-bold text-ayur-dark">
-                        Raw Wild Amla Swarasa
+                        Organic Moringa Capsules
                       </h4>
                       <p className="text-[11px] text-stone-600">
-                        Cold-pressed from small Pratapgarh wild gooseberries
+                        Superfood &amp; Daily Immunity • 60 Veg Capsules
                       </p>
                     </div>
                     <Link
-                      href="/products/raw-wild-amla-juice"
-                      className="px-3 py-2 bg-ayur-primary text-white text-xs font-semibold rounded hover:bg-ayur-secondary transition-colors"
+                      href="/products/moringa"
+                      className="px-3 py-1.5 bg-ayur-primary text-white text-xs font-semibold rounded hover:bg-ayur-secondary transition-colors"
                     >
-                      Shop
+                      View &rarr;
                     </Link>
                   </div>
                 </div>

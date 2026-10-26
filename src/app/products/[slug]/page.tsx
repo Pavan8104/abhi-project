@@ -46,6 +46,38 @@ export default function ProductDetailPage({
 
   return (
     <div className="bg-ayur-cream min-h-screen py-6 sm:py-12 border-b border-ayur-border/60">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: product.name,
+            image: product.images,
+            description: product.shortDescription,
+            brand: {
+              "@type": "Brand",
+              name: "SARVA NATURAL",
+            },
+            offers: {
+              "@type": "Offer",
+              url: `https://sarvanatural.com/products/${product.slug}`,
+              priceCurrency: "INR",
+              price: product.variants[0].price,
+              priceValidUntil: "2027-12-31",
+              itemCondition: "https://schema.org/NewCondition",
+              availability: product.inStock
+                ? "https://schema.org/InStock"
+                : "https://schema.org/OutOfStock",
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: product.rating,
+              reviewCount: product.reviewCount,
+            },
+          }),
+        }}
+      />
       <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8">
         {/* Breadcrumb Navigation */}
         <nav

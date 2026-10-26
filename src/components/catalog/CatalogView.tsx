@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo, useTransition, useCallback } from "react";
+import Link from "next/link";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { HealthConcern, SortOption } from "@/types/product";
 import { PRODUCTS } from "@/data/products";
@@ -35,8 +36,8 @@ export function CatalogView({
   const queryConcern = searchParams.get("concern") as HealthConcern | null;
   const queryCategory = searchParams.get("category");
   const querySort = (searchParams.get("sort") as SortOption) || "featured";
-  const queryMinPrice = searchParams.get("minPrice") ? Number(searchParams.get("minPrice")) : 199;
-  const queryMaxPrice = searchParams.get("maxPrice") ? Number(searchParams.get("maxPrice")) : 2200;
+  const queryMinPrice = searchParams.get("minPrice") ? Number(searchParams.get("minPrice")) : 350;
+  const queryMaxPrice = searchParams.get("maxPrice") ? Number(searchParams.get("maxPrice")) : 1600;
   const queryInStock = searchParams.get("inStock") === "true";
   const searchQuery = searchParams.get("q") || "";
 
@@ -128,8 +129,8 @@ export function CatalogView({
   };
 
   const handleResetPrice = () => {
-    setPriceRange([199, 2200]);
-    syncUrlParams(selectedCategories, selectedConcerns, selectedAttributes, [199, 2200], inStockOnly, sortOption);
+    setPriceRange([350, 1600]);
+    syncUrlParams(selectedCategories, selectedConcerns, selectedAttributes, [350, 1600], inStockOnly, sortOption);
   };
 
   const handleToggleInStock = (val: boolean) => {
@@ -146,15 +147,22 @@ export function CatalogView({
     setSelectedCategories([]);
     setSelectedConcerns([]);
     setSelectedAttributes([]);
-    setPriceRange([199, 2200]);
+    setPriceRange([350, 1600]);
     setInStockOnly(false);
     setSortOption("featured");
-    syncUrlParams([], [], [], [199, 2200], false, "featured");
+    syncUrlParams([], [], [], [350, 1600], false, "featured");
   };
 
   // Filter and sort the products
   const filteredProducts = useMemo(() => {
     return PRODUCTS.filter((p) => {
+      // Collection-specific filter
+      if (initialSlug === "bestsellers") {
+        if (!p.isBestseller) return false;
+      } else if (initialSlug === "daily-wellness") {
+        if (!p.healthConcerns.includes("daily-wellness")) return false;
+      }
+
       // Search query filter
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
@@ -214,6 +222,7 @@ export function CatalogView({
       }
     });
   }, [
+    initialSlug,
     searchQuery,
     selectedCategories,
     selectedConcerns,
@@ -228,59 +237,68 @@ export function CatalogView({
     selectedConcerns.length +
     selectedAttributes.length +
     (inStockOnly ? 1 : 0) +
-    (priceRange[0] > 199 || priceRange[1] < 2200 ? 1 : 0);
+    (priceRange[0] > 350 || priceRange[1] < 1600 ? 1 : 0);
 
   // Dynamic header based on slug
-  const title =
-    pageTitle ||
-    (initialSlug === "all-products"
-      ? "All Classical Ayurvedic Formulations"
-      : initialSlug.charAt(0).toUpperCase() + initialSlug.slice(1).replace("-", " "));
+  let title = pageTitle;
+  let description = pageDescription;
 
-  const description =
-    pageDescription ||
-    "Explore our complete range of unadulterated cold-pressed juices, classical kwaths, medicated tailas, and restorative wellness kits.";
+  if (!title) {
+    if (initialSlug === "all-products") {
+      title = "Shop All Products";
+      description = "Our complete trio of pure, authenticated Ayurvedic botanical capsules.";
+    } else if (initialSlug === "bestsellers") {
+      title = "Bestselling Formulations";
+      description = "Our most revered classical Ayurvedic formulations consistently chosen for purity and efficacy.";
+    } else if (initialSlug === "herbal-wellness") {
+      title = "Herbal Wellness Formulations";
+      description = "Targeted botanical nutrition for mind, body, and cellular vitality.";
+    } else if (initialSlug === "daily-wellness") {
+      title = "Daily Wellness Essentials";
+      description = "Cornerstone daily herbs for digestive detox and whole-food vitality.";
+    } else {
+      title = initialSlug.charAt(0).toUpperCase() + initialSlug.slice(1).replace("-", " ");
+      description = "Pure, standardized Ayurvedic botanicals tested for absolute purity.";
+    }
+  }
 
   return (
     <div className="bg-ayur-cream min-h-screen py-8 sm:py-14 border-b border-ayur-border/60">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-        {/* Breadcrumb & Title Banner */}
-        <div className="mb-6 sm:mb-8">
-          <div className="flex items-center gap-2 text-xs text-ayur-muted mb-2 font-sans truncate">
-            <span>Home</span>
+        {/* Breadcrumb & Centered Title Banner with Generous Whitespace */}
+        <div className="text-center pt-2 pb-8 sm:pb-12 max-w-3xl mx-auto">
+          <div className="flex items-center justify-center gap-2 text-xs text-ayur-muted mb-3 font-sans">
+            <Link href="/" className="hover:text-ayur-primary transition-colors">
+              Home
+            </Link>
             <span>/</span>
-            <span>Collections</span>
+            <Link href="/collections/all-products" className="hover:text-ayur-primary transition-colors">
+              Collections
+            </Link>
             <span>/</span>
-            <span className="text-ayur-primary font-medium truncate">{title}</span>
+            <span className="text-ayur-primary font-medium">{title}</span>
           </div>
 
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-3 sm:gap-4 pb-4 sm:pb-6 border-b border-ayur-border/80">
-            <div>
-              <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-ayur-sageLight/70 border border-ayur-sage/30 text-[10px] sm:text-[11px] font-semibold text-ayur-primary uppercase tracking-wider mb-2">
-                <Leaf className="w-3 h-3" />
-                <span>Vedic Apothecary Catalog</span>
-              </div>
-              <h1 className="font-serif text-2xl sm:text-4xl font-bold text-ayur-dark">
-                {title}
-              </h1>
-              <p className="text-xs sm:text-sm text-stone-600 mt-1.5 sm:mt-2 max-w-2xl font-sans leading-relaxed">
-                {description}
-              </p>
-            </div>
-
-            <span className="text-xs font-medium text-ayur-dark font-sans self-start md:self-end">
-              Showing <strong>{filteredProducts.length}</strong> of {PRODUCTS.length} formulations
-            </span>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-ayur-sageLight/70 border border-ayur-sage/30 text-[10px] sm:text-[11px] font-semibold text-ayur-primary uppercase tracking-widest mb-3">
+            <Leaf className="w-3 h-3 text-ayur-gold" />
+            <span>100% PURE BOTANICAL EXTRACTS</span>
           </div>
+
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-ayur-dark tracking-tight">
+            {title}
+          </h1>
+          <p className="text-xs sm:text-sm md:text-base text-stone-600 mt-2 sm:mt-3 max-w-xl mx-auto font-sans leading-relaxed">
+            {description}
+          </p>
         </div>
 
-        {/* Filter Bar Controls */}
-        <div className="bg-white p-2.5 sm:p-4 rounded-lg border border-ayur-border shadow-soft flex flex-wrap items-center justify-between gap-2.5 sm:gap-3 mb-6">
+        {/* Clean Horizontal Pill-Shaped Catalog Toolbar */}
+        <div className="bg-white px-3 sm:px-5 py-2 sm:py-2.5 rounded-full border border-ayur-border/90 shadow-sm flex flex-wrap items-center justify-between gap-2.5 sm:gap-3 mb-6 sm:mb-8">
           <div className="flex items-center gap-2 sm:gap-3">
             {/* Filter Drawer Trigger */}
             <button
               onClick={() => setFilterDrawerOpen(true)}
-              className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 bg-ayur-primary text-white text-xs font-semibold rounded hover:bg-ayur-secondary transition-all shadow-xs"
+              className="inline-flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-4 py-1.5 sm:py-2 bg-ayur-primary text-white text-xs font-semibold rounded-full hover:bg-ayur-secondary transition-all shadow-xs min-h-[36px]"
             >
               <SlidersHorizontal className="w-3.5 h-3.5" />
               <span>Filters</span>
@@ -292,7 +310,7 @@ export function CatalogView({
             </button>
 
             {/* In stock shortcut toggle on desktop */}
-            <label className="hidden sm:inline-flex items-center gap-2 text-xs font-medium text-stone-700 cursor-pointer ml-1">
+            <label className="hidden sm:inline-flex items-center gap-2 text-xs font-medium text-stone-700 cursor-pointer pl-1">
               <input
                 type="checkbox"
                 checked={inStockOnly}
@@ -301,11 +319,15 @@ export function CatalogView({
               />
               <span>In Stock Only</span>
             </label>
+
+            <span className="text-xs text-ayur-muted font-sans hidden md:inline-block border-l border-stone-200 pl-3">
+              Showing <strong>{filteredProducts.length}</strong> of {PRODUCTS.length} formulations
+            </span>
           </div>
 
           <div className="flex items-center gap-2 sm:gap-3 ml-auto">
-            <SortDropdown currentSort={sortOption} onSortChange={handleSortChange} />
             <ViewToggle viewMode={viewMode} onViewChange={setViewMode} />
+            <SortDropdown currentSort={sortOption} onSortChange={handleSortChange} />
           </div>
         </div>
 

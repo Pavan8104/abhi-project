@@ -2,20 +2,81 @@
 
 import React, { useState } from "react";
 import { Product } from "@/types/product";
-import { ChevronDown, Leaf, ShieldCheck, Sparkles, Clock } from "lucide-react";
+import { ChevronDown, Leaf, ShieldCheck, Sparkles, Clock, HelpCircle, Truck } from "lucide-react";
 
 interface ProductDetailsAccordionProps {
   product: Product;
 }
 
 export function ProductDetailsAccordion({ product }: ProductDetailsAccordionProps) {
-  const [openSections, setOpenSections] = useState<string[]>(["benefits", "ingredients"]);
+  const [openSections, setOpenSections] = useState<string[]>([
+    "benefits",
+    "ingredients",
+    "usage",
+    "shipping",
+  ]);
 
   const toggleSection = (id: string) => {
     setOpenSections((prev) =>
       prev.includes(id) ? prev.filter((s) => s !== id) : [...prev, id]
     );
   };
+
+  const productSpecificFaqs: Record<string, { q: string; a: string }[]> = {
+    moringa: [
+      {
+        q: "When is the best time to take Moringa capsules?",
+        a: "Take 1 to 2 capsules in the morning after breakfast or lunch with lukewarm water. Because Moringa provides natural botanical energy and rich plant micronutrients, morning or mid-day consumption is optimal.",
+      },
+      {
+        q: "Can I take Moringa during pregnancy or lactation?",
+        a: "While Moringa is traditionally celebrated as a galactagogue (nourishing maternal milk), we recommend pregnant or nursing women consult their doctor or an Ayurvedic practitioner before starting any new herbal supplement.",
+      },
+      {
+        q: "What makes Sarva Natural Moringa different from supermarket powders?",
+        a: "Our leaves are shade-dried at strictly controlled temperatures under 40°C to prevent heat degradation of Vitamin C, chlorophyll, and antioxidants. Packed in 100% plant-cellulose capsules with zero binders.",
+      },
+    ],
+    triphala: [
+      {
+        q: "Is Triphala habit-forming like chemical laxatives?",
+        a: "No. Unlike senna, bisacodyl, or synthetic laxatives that irritate colon nerve endings and cause dependency, classical Triphala is a gentle rejuvenative (Rasayana). It tones the intestinal musculature and supports natural peristalsis safely for long-term use.",
+      },
+      {
+        q: "Should I take Triphala with warm water or milk?",
+        a: "For colon cleansing and morning elimination, take 1 to 2 capsules 30-45 minutes before sleep with lukewarm water. For deep tissue nourishment, it can be taken with warm milk.",
+      },
+      {
+        q: "What is the exact ratio of the three fruits?",
+        a: "We adhere strictly to the classical Charaka Samhita equal ratio of 1:1:1 — 33.3% Haritaki, 33.3% Bibhitaki, and 33.3% Amalaki fruit pulp.",
+      },
+    ],
+    ashwagandha: [
+      {
+        q: "Will Ashwagandha make me sleepy during daytime?",
+        a: "No. Ashwagandha is an adaptogen, not a sedative. It modulates cortisol and calms nervous tension, providing steady mental clarity during the day and facilitating deep restorative REM sleep at night.",
+      },
+      {
+        q: "How long does it take for Ashwagandha to work?",
+        a: "Many patrons experience noticeable calm within 3 to 5 days. For substantial cortisol regulation, enhanced physical endurance, and deep sleep architecture, consistent daily use for 3 to 6 weeks is recommended.",
+      },
+      {
+        q: "Are these capsules made from the root or the leaf?",
+        a: "Classical Ayurveda prescribes Withania somnifera root (Ashwagandha Mula) for tonic and Rasayana benefits. We use standardized pure root extract, never cheap leaf fillers.",
+      },
+    ],
+  };
+
+  const faqs = productSpecificFaqs[product.slug] || [
+    {
+      q: "How should I store these capsules?",
+      a: "Keep tightly sealed in a cool, dry place away from direct sunlight and moisture. No refrigeration needed.",
+    },
+    {
+      q: "Are there any synthetic additives?",
+      a: "Zero. We do not use magnesium stearate, talc, artificial coloring, or preservatives.",
+    },
+  ];
 
   return (
     <div className="border-t border-stone-200 mt-12 pt-8">
@@ -87,7 +148,7 @@ export function ProductDetailsAccordion({ product }: ProductDetailsAccordionProp
           >
             <div className="flex items-center gap-2.5">
               <Leaf className="w-4 h-4 text-ayur-primary" />
-              <span>Classical Botanical Composition</span>
+              <span>Classical Botanical Composition (100% Transparent)</span>
             </div>
             <ChevronDown
               className={`w-4 h-4 text-stone-500 transition-transform duration-200 ${
@@ -98,53 +159,55 @@ export function ProductDetailsAccordion({ product }: ProductDetailsAccordionProp
 
           {openSections.includes("ingredients") && (
             <div className="p-3.5 sm:p-5 border-t border-stone-100 overflow-x-auto">
-              <span className="text-[10px] text-stone-400 block sm:hidden mb-2 italic">← Swipe table sideways to inspect botanical details →</span>
-              <table className="min-w-[500px] w-full text-left text-xs">
+              <table className="w-full text-xs text-left">
                 <thead>
-                  <tr className="border-b border-stone-200 text-ayur-primary font-bold uppercase tracking-wider text-[10px]">
-                    <th className="pb-2">Ingredient / Sanskrit Name</th>
-                    <th className="pb-2">Botanical Taxon</th>
-                    <th className="pb-2">Proportion</th>
-                    <th className="pb-2">Classical Therapeutic Role</th>
+                  <tr className="border-b border-stone-200 text-stone-400 font-sans uppercase tracking-wider text-[10px]">
+                    <th className="pb-2 font-semibold">Botanical Herb</th>
+                    <th className="pb-2 font-semibold">Latin Botanical Name</th>
+                    <th className="pb-2 font-semibold">Ratio / Purity</th>
+                    <th className="pb-2 font-semibold">Therapeutic Action</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-stone-100">
+                <tbody className="divide-y divide-stone-100 text-stone-700 font-sans">
                   {product.ingredients.map((ing, idx) => (
-                    <tr key={idx} className="py-2.5">
-                      <td className="py-2.5 font-semibold text-ayur-dark">
+                    <tr key={idx} className="hover:bg-ayur-parchment/20">
+                      <td className="py-2.5 pr-3 font-medium text-ayur-dark">
                         {ing.name}
                         {ing.sanskritName && (
-                          <span className="text-[11px] text-ayur-muted block font-serif italic">
+                          <span className="block text-[10px] text-ayur-secondary font-serif italic">
                             {ing.sanskritName}
                           </span>
                         )}
                       </td>
-                      <td className="py-2.5 font-mono text-[11px] text-stone-600 italic">
-                        {ing.botanicalName}
+                      <td className="py-2.5 pr-3 italic text-stone-600">
+                        {ing.botanicalName || "—"}
                       </td>
-                      <td className="py-2.5 font-sans font-medium text-stone-800">
-                        {ing.percentage || "Classical Q.S."}
+                      <td className="py-2.5 pr-3 font-mono font-semibold text-ayur-primary">
+                        {ing.percentage || "100%"}
                       </td>
-                      <td className="py-2.5 text-stone-600 leading-relaxed max-w-xs">
+                      <td className="py-2.5 text-stone-600 leading-snug">
                         {ing.purpose}
                       </td>
                     </tr>
                   ))}
                 </tbody>
               </table>
+              <div className="mt-3 p-2.5 bg-emerald-50/70 border border-emerald-200/60 rounded text-[11px] text-emerald-900">
+                Encapsulated in 100% plant-cellulose vegetarian HPMC capsules. Zero gelatin, bovine extracts, or chemical binders.
+              </div>
             </div>
           )}
         </div>
 
-        {/* 3. Usage & Anupana */}
+        {/* 3. Directions for Use & Daily Dosage */}
         <div className="border border-ayur-border/80 rounded-lg overflow-hidden bg-white">
           <button
             onClick={() => toggleSection("usage")}
             className="w-full flex items-center justify-between p-4 text-left font-serif text-base font-bold text-ayur-dark bg-ayur-parchment/30 hover:bg-ayur-parchment/60 transition-colors"
           >
             <div className="flex items-center gap-2.5">
-              <Clock className="w-4 h-4 text-ayur-primary" />
-              <span>How to Consume &amp; Recommended Anupana</span>
+              <Clock className="w-4 h-4 text-ayur-clay" />
+              <span>Directions for Use &amp; Recommended Anupana</span>
             </div>
             <ChevronDown
               className={`w-4 h-4 text-stone-500 transition-transform duration-200 ${
@@ -169,12 +232,12 @@ export function ProductDetailsAccordion({ product }: ProductDetailsAccordionProp
                   Recommended Anupana (Carrier Vehicle):
                 </strong>
                 <p className="text-stone-600 font-sans">
-                  {product.anupana}. Taking herbs with the appropriate classical anupana helps escort the herbal actives through cellular membranes for enhanced bioavailability.
+                  {product.anupana}. In classical Ayurveda, the anupana acts as a targeted biological escort, facilitating optimal absorption across the intestinal wall.
                 </p>
               </div>
 
               <div className="pt-2 text-[11px] text-stone-500">
-                <strong>Storage:</strong> Store in a cool, dry place away from direct sunlight. Refrigerate after opening and consume within 30-45 days. Shelf Life: {product.shelfLife}.
+                <strong>Storage:</strong> Store tightly sealed in a cool, dry place away from direct sunlight. Shelf Life: {product.shelfLife}.
               </div>
             </div>
           )}
@@ -188,7 +251,7 @@ export function ProductDetailsAccordion({ product }: ProductDetailsAccordionProp
           >
             <div className="flex items-center gap-2.5">
               <ShieldCheck className="w-4 h-4 text-emerald-700" />
-              <span>Safety, Manufacturing Standards &amp; Lab Reports</span>
+              <span>Safety, Manufacturing Standards &amp; Lab Verification</span>
             </div>
             <ChevronDown
               className={`w-4 h-4 text-stone-500 transition-transform duration-200 ${
@@ -213,7 +276,82 @@ export function ProductDetailsAccordion({ product }: ProductDetailsAccordionProp
                 ))}
               </div>
               <p className="text-[11px] text-stone-500 leading-relaxed pt-2">
-                Every batch is manufactured under AYUSH Ministry GMP guidelines. Tested for absence of microbial pathogens (E. coli, Salmonella) and compliant with maximum permissible limits for heavy metals.
+                Every batch is manufactured in an audited GMP (Schedule T) certified facility licensed by the Ministry of AYUSH. Tested via ICP-MS spectrometry for zero heavy metal toxicity and compliant with stringent microbiological purity standards.
+              </p>
+            </div>
+          )}
+        </div>
+
+        {/* 5. Product FAQs */}
+        <div className="border border-ayur-border/80 rounded-lg overflow-hidden bg-white">
+          <button
+            onClick={() => toggleSection("faqs")}
+            className="w-full flex items-center justify-between p-4 text-left font-serif text-base font-bold text-ayur-dark bg-ayur-parchment/30 hover:bg-ayur-parchment/60 transition-colors"
+          >
+            <div className="flex items-center gap-2.5">
+              <HelpCircle className="w-4 h-4 text-ayur-primary" />
+              <span>Product FAQs &amp; Usage Guidance</span>
+            </div>
+            <ChevronDown
+              className={`w-4 h-4 text-stone-500 transition-transform duration-200 ${
+                openSections.includes("faqs") ? "rotate-180" : ""
+              }`}
+            />
+          </button>
+
+          {openSections.includes("faqs") && (
+            <div className="p-5 border-t border-stone-100 text-xs text-stone-700 space-y-3">
+              {faqs.map((f, idx) => (
+                <div key={idx} className="pb-3 border-b border-stone-100 last:border-b-0 last:pb-0">
+                  <h5 className="font-semibold text-ayur-dark text-[12px] mb-1 font-serif">
+                    {f.q}
+                  </h5>
+                  <p className="text-stone-600 leading-relaxed">{f.a}</p>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* 6. Shipping & Delivery Details */}
+        <div className="border border-ayur-border/80 rounded-lg overflow-hidden bg-white">
+          <button
+            onClick={() => toggleSection("shipping")}
+            className="w-full flex items-center justify-between p-4 text-left font-serif text-base font-bold text-ayur-dark bg-ayur-parchment/30 hover:bg-ayur-parchment/60 transition-colors"
+          >
+            <div className="flex items-center gap-2.5">
+              <Truck className="w-4 h-4 text-ayur-gold" />
+              <span>Shipping, Express Delivery &amp; Returns</span>
+            </div>
+            <ChevronDown
+              className={`w-4 h-4 text-stone-500 transition-transform duration-200 ${
+                openSections.includes("shipping") ? "rotate-180" : ""
+              }`}
+            />
+          </button>
+
+          {openSections.includes("shipping") && (
+            <div className="p-5 border-t border-stone-100 text-xs text-stone-700 space-y-3 leading-relaxed">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="p-3 bg-stone-50 rounded border border-stone-200">
+                  <strong className="block text-ayur-dark font-sans uppercase tracking-wider text-[10px] mb-1">
+                    Free Express Delivery
+                  </strong>
+                  <p className="text-[11px] text-stone-600">
+                    Complimentary express dispatch on all orders above ₹399 across all serviceable PIN codes in India.
+                  </p>
+                </div>
+                <div className="p-3 bg-stone-50 rounded border border-stone-200">
+                  <strong className="block text-ayur-dark font-sans uppercase tracking-wider text-[10px] mb-1">
+                    Same-Day Dispatch
+                  </strong>
+                  <p className="text-[11px] text-stone-600">
+                    Orders placed before 2 PM IST are packed and handed over to our courier partner within 24 hours.
+                  </p>
+                </div>
+              </div>
+              <p className="text-[11px] text-stone-500 pt-1">
+                Typical delivery timeline is 2 to 4 business days for metropolitan regions and 3 to 6 days for tier 2/3 cities. In case of transit damage, we provide immediate free replacements.
               </p>
             </div>
           )}

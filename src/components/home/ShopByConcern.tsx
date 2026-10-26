@@ -34,9 +34,9 @@ export function ShopByConcern() {
           </Link>
         </div>
 
-        {/* Categories Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
-          {HEALTH_CONCERNS.map((c) => {
+        {/* Categories Grid - Only concerns with products */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-5xl mx-auto">
+          {HEALTH_CONCERNS.filter(c => PRODUCTS.some(p => p.healthConcerns.includes(c.id))).map((c) => {
             const count = PRODUCTS.filter((p) => p.healthConcerns.includes(c.id)).length;
             return (
               <Link
@@ -45,34 +45,37 @@ export function ShopByConcern() {
                 className="group relative rounded-lg overflow-hidden border border-ayur-border/80 bg-ayur-parchment/30 hover:border-ayur-primary/60 transition-all duration-300 hover:shadow-card flex flex-col"
               >
                 {/* Image */}
-                <div className="relative aspect-[4/3] w-full overflow-hidden bg-ayur-sand/30">
+                <div className="relative aspect-[4/3] w-full overflow-hidden bg-ayur-parchment">
                   <ImageWithFallback
                     src={c.image}
                     alt={c.title}
                     fill
-                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-contain p-4 group-hover:scale-105 transition-transform duration-700"
                     fallbackTitle={c.title}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
-                  <span className="absolute bottom-2 left-2 sm:bottom-2.5 sm:left-3 text-[9px] sm:text-[10px] text-white font-medium bg-black/40 px-1.5 sm:px-2 py-0.5 rounded backdrop-blur-xs">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-40 group-hover:opacity-20 transition-opacity" />
+                  <span className="absolute bottom-2 left-2 sm:bottom-2.5 sm:left-3 text-[10px] text-white font-medium bg-ayur-primary/80 px-2 py-0.5 rounded backdrop-blur-xs">
                     {count} {count === 1 ? "Formula" : "Formulas"}
                   </span>
                 </div>
 
                 {/* Details */}
-                <div className="p-3 sm:p-4 flex-1 flex flex-col justify-between">
+                <div className="p-4 flex-1 flex flex-col justify-between">
                   <div>
-                    <span className="text-[9px] sm:text-[10px] font-serif italic text-ayur-secondary block mb-0.5 truncate">
+                    <span className="text-[10px] font-serif italic text-ayur-secondary block mb-0.5">
                       {c.sanskritName}
                     </span>
-                    <h3 className="font-serif text-sm sm:text-base font-bold text-ayur-dark group-hover:text-ayur-primary transition-colors leading-snug line-clamp-1">
+                    <h3 className="font-serif text-base font-bold text-ayur-dark group-hover:text-ayur-primary transition-colors leading-snug">
                       {c.title}
                     </h3>
+                    <p className="text-xs text-stone-600 mt-1">
+                      {c.subtitle}
+                    </p>
                   </div>
 
-                  <div className="mt-2.5 sm:mt-3 flex items-center text-xs font-semibold text-ayur-primary group-hover:translate-x-0.5 transition-transform">
-                    <span>Explore</span>
+                  <div className="mt-3 flex items-center text-xs font-semibold text-ayur-primary group-hover:translate-x-0.5 transition-transform">
+                    <span>Explore Formulation</span>
                     <ArrowRight className="w-3.5 h-3.5 ml-1" />
                   </div>
                 </div>
