@@ -3,7 +3,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Leaf, ShieldCheck, Award, Heart, Mail, Phone, MapPin } from "lucide-react";
+import { Leaf, ShieldCheck, Award, Heart, Mail, Phone, MapPin, MessageCircle } from "lucide-react";
+import { buildContactUsWhatsAppUrl, WHATSAPP_CONFIG } from "@/lib/whatsapp";
 
 export function Footer() {
   return (
@@ -172,6 +173,21 @@ export function Footer() {
               Support &amp; Care
             </h4>
             <ul className="space-y-2.5 text-xs text-ayur-sand/80">
+              <li>
+                <a
+                  href={buildContactUsWhatsAppUrl({
+                    name: "Patron",
+                    subject: "General Inquiry",
+                    message: "Namaste SARVA NATURAL, I would like assistance with an inquiry.",
+                  })}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-emerald-400 hover:text-emerald-300 transition-colors flex items-center gap-1.5 font-medium"
+                >
+                  <MessageCircle className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
+                  <span>WhatsApp: {WHATSAPP_CONFIG.displayNumber}</span>
+                </a>
+              </li>
               <li>
                 <Link href="/consultation" className="hover:text-white transition-colors">
                   Book Vaidya Call

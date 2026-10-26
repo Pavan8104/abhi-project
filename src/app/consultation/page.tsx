@@ -9,7 +9,9 @@ import {
   Calendar,
   ShieldCheck,
   HelpCircle,
+  MessageCircle,
 } from "lucide-react";
+import { buildConsultationInquiryWhatsAppUrl } from "@/lib/whatsapp";
 
 export default function ConsultationPage() {
   const { openConsultation } = useConsultationStore();
@@ -49,7 +51,7 @@ export default function ConsultationPage() {
             Personalized advice on Dosha balancing, dietary rhythm (Dinacharya), and classical herbal decoctions from certified BAMS &amp; MD doctors.
           </p>
 
-          <div className="mt-6 sm:mt-8 flex justify-center">
+          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-center justify-center gap-3">
             <button
               onClick={() => openConsultation()}
               className="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 bg-ayur-primary text-white text-xs sm:text-sm font-semibold uppercase tracking-wider rounded hover:bg-ayur-secondary transition-all shadow-md flex items-center justify-center gap-2"
@@ -57,6 +59,17 @@ export default function ConsultationPage() {
               <Calendar className="w-4 h-4 text-ayur-gold" />
               <span>Schedule 15-Min Free Session</span>
             </button>
+            <a
+              href={buildConsultationInquiryWhatsAppUrl({
+                concern: "Ayurvedic Lifestyle & Formulation Guidance",
+              })}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto px-6 sm:px-8 py-3.5 sm:py-4 bg-emerald-700 hover:bg-emerald-800 text-white text-xs sm:text-sm font-semibold uppercase tracking-wider rounded transition-all shadow-md flex items-center justify-center gap-2"
+            >
+              <MessageCircle className="w-4 h-4" />
+              <span>Consult on WhatsApp</span>
+            </a>
           </div>
         </div>
 
@@ -110,12 +123,26 @@ export default function ConsultationPage() {
                   </div>
                 </div>
 
-                <button
-                  onClick={() => openConsultation()}
-                  className="w-full py-2.5 bg-ayur-parchment hover:bg-ayur-sageSubtle text-ayur-dark hover:text-ayur-primary border border-ayur-sand font-semibold text-xs rounded transition-colors text-center"
-                >
-                  Book with {doctor.name.split(" ")[1]} &rarr;
-                </button>
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => openConsultation()}
+                    className="flex-1 py-2.5 bg-ayur-parchment hover:bg-ayur-sageSubtle text-ayur-dark hover:text-ayur-primary border border-ayur-sand font-semibold text-xs rounded transition-colors text-center"
+                  >
+                    Book with {doctor.name.split(" ")[1]} &rarr;
+                  </button>
+                  <a
+                    href={buildConsultationInquiryWhatsAppUrl({
+                      concern: `Consultation with ${doctor.name} (${doctor.specialization})`,
+                    })}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3.5 py-2.5 bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-semibold rounded transition-colors flex items-center gap-1.5 shadow-xs"
+                    title={`Inquire via WhatsApp with ${doctor.name}`}
+                  >
+                    <MessageCircle className="w-3.5 h-3.5" />
+                    <span className="hidden sm:inline">WhatsApp</span>
+                  </a>
+                </div>
               </div>
             ))}
           </div>

@@ -12,9 +12,16 @@ import {
   Banknote,
   AlertTriangle,
   ArrowRight,
+  MessageCircle,
+  ExternalLink,
 } from "lucide-react";
 import { useCartStore } from "@/store/useCartStore";
 import { formatINR } from "@/lib/utils";
+import {
+  buildOrderSummaryWhatsAppUrl,
+  WHATSAPP_CONFIG,
+  OrderWhatsAppItem,
+} from "@/lib/whatsapp";
 
 export function DemoCheckoutModal() {
   const {
@@ -44,6 +51,25 @@ export function DemoCheckoutModal() {
   });
 
   const [orderId, setOrderId] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [whatsappUrl, setWhatsappUrl] = useState("");
+  const [orderSummarySnapshot, setOrderSummarySnapshot] = useState<{
+    orderId: string;
+    orderDate: string;
+    items: OrderWhatsAppItem[];
+    subtotal: number;
+    discount: number;
+    couponCode?: string;
+    shipping: number;
+    total: number;
+    customerName: string;
+    phone: string;
+    address: string;
+    city: string;
+    state: string;
+    pincode: string;
+    paymentMethod: "upi" | "cod" | "card";
+  } | null>(null);
 
   const subtotal = getSubtotal();
   const discount = getDiscountAmount();
@@ -52,10 +78,57 @@ export function DemoCheckoutModal() {
 
   const handleSimulatePlaceOrder = (e: React.FormEvent) => {
     e.preventDefault();
+    if (isSubmitting) return;
+    setIsSubmitting(true);
+
     const demoId = `SARVA-${Math.floor(100000 + Math.random() * 900000)}`;
+    const now = new Date();
+    const dateStr =
+      now.toLocaleString("en-IN", {
+        dateStyle: "medium",
+        timeStyle: "short",
+        timeZone: "Asia/Kolkata",
+      }) + " IST";
+
+    // Capture complete order snapshot before clearing cart
+    const snapshot = {
+      orderId: demoId,
+      orderDate: dateStr,
+      items: items.map((i) => ({
+        name: i.product.name,
+        variant: i.variant.title,
+        quantity: i.quantity,
+        price: i.variant.price,
+      })),
+      subtotal,
+      discount,
+      couponCode: appliedCoupon?.code,
+      shipping,
+      total: grandTotal,
+      customerName: formData.name,
+      phone: formData.phone,
+      address: formData.address,
+      city: formData.city,
+      state: formData.state,
+      pincode: formData.pincode,
+      paymentMethod,
+      isDemo: true,
+    };
+
+    // Construct WhatsApp message URL with verified order details
+    const directWaUrl = buildOrderSummaryWhatsAppUrl(snapshot);
+    setWhatsappUrl(directWaUrl);
+    setOrderSummarySnapshot(snapshot);
     setOrderId(demoId);
+
+    // DIRECT REDIRECT / OPEN: Trigger immediately within user click gesture
+    if (typeof window !== "undefined") {
+      window.open(directWaUrl, "_blank", "noopener,noreferrer");
+    }
+
     setStep("confirmation");
     clearCart();
+    setIsSubmitting(false);
   };
 
   const handleClose = () => {
@@ -292,7 +365,7 @@ export function DemoCheckoutModal() {
                   <span>Simulated Dispatch Timeline</span>
                 </div>
                 <p className="text-stone-600 leading-relaxed">
-                  In a production environment, freshly bottled Swarasa juices are cold-packed within 24 hours from our Pratapgarh facility and delivered in insulated packaging.
+                  In a production environment, freshly encapsulated Ayurvedic botanicals are dispatched within 24 hours from our facility in tamper-proof glass packaging.
                 </p>
                 <div className="pt-2 border-t border-ayur-sand text-stone-700 text-[11px]">
                   <strong>Demo Recipient:</strong> {formData.name} • {formData.phone}
@@ -301,7 +374,48 @@ export function DemoCheckoutModal() {
                 </div>
               </div>
 
-              <div className="pt-4 flex justify-center gap-3">
+              {/* WhatsApp Direct Open Status & Explanation */}
+              <div className="max-w-md mx-auto p-4 bg-emerald-50/90 border border-emerald-300 rounded-lg text-left space-y-2.5 shadow-xs">
+                <div className="flex items-center gap-2 text-emerald-950 font-bold text-xs">
+                  <span className="w-2.5 h-2.5 rounded-full bg-emerald-600 animate-ping" />
+                  <MessageCircle className="w-4 h-4 text-emerald-700 flex-shrink-0" />
+                  <span>WhatsApp Opened Directly</span>
+                </div>
+
+                <p className="text-[11px] text-emerald-900 leading-relaxed">
+                  Your order reference and complete itemized summary have been loaded into WhatsApp addressed to <strong>{WHATSAPP_CONFIG.displayNumber}</strong>. Please tap <strong>Send</strong> inside WhatsApp to transmit the order details to our fulfillment desk.
+                </p>
+
+                {orderSummarySnapshot && (
+                  <div className="pt-2 border-t border-emerald-200/80 text-[11px] text-emerald-950 space-y-1 font-mono">
+                    <div className="flex justify-between">
+                      <span>Payment Method:</span>
+                      <strong className="capitalize">{orderSummarySnapshot.paymentMethod === "cod" ? "Cash on Delivery" : orderSummarySnapshot.paymentMethod === "card" ? "Cards / NetBanking" : "UPI / QR Code"}</strong>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Total Payable:</span>
+                      <strong>{formatINR(orderSummarySnapshot.total)}</strong>
+                    </div>
+                  </div>
+                )}
+
+                <div className="pt-2 border-t border-emerald-200 text-center">
+                  <span className="text-[11px] text-stone-600">
+                    Did WhatsApp not open automatically?{" "}
+                  </span>
+                  <a
+                    href={whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-xs font-bold text-emerald-800 hover:text-emerald-900 underline underline-offset-2 ml-1"
+                  >
+                    <span>Click here to open WhatsApp</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                </div>
+              </div>
+
+              <div className="pt-2 flex justify-center gap-3">
                 <button
                   onClick={handleClose}
                   className="px-6 py-2.5 bg-ayur-primary text-white text-xs font-semibold rounded hover:bg-ayur-secondary transition-colors"

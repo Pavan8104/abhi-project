@@ -93,7 +93,7 @@ export function WishlistDrawer() {
                             src={prod.images[0]}
                             alt={prod.name}
                             fill
-                            className="object-cover"
+                            className="object-contain p-1"
                             fallbackTitle={prod.name}
                           />
                         </Link>

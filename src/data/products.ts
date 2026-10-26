@@ -49,7 +49,6 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       "/images/products/moringa.jpeg",
-      "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
     ],
     variants: [
       {
@@ -162,7 +161,6 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       "/images/products/triphala.jpeg",
-      "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80",
     ],
     variants: [
       {
@@ -261,7 +259,6 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       "/images/products/ashwagandha.jpeg",
-      "https://images.unsplash.com/photo-1514733670139-4d87a1941d55?auto=format&fit=crop&w=800&q=80",
     ],
     variants: [
       {

@@ -37,7 +37,7 @@ export function ProductGallery({
                 src={img}
                 alt={`${productName} thumbnail ${idx + 1}`}
                 fill
-                className="object-cover"
+                className="object-contain p-1"
                 fallbackTitle={productName}
               />
             </button>
@@ -52,8 +52,8 @@ export function ProductGallery({
           alt={productName}
           fill
           priority
-          sizes="(max-width: 1024px) 100vw, 550px"
-          className="object-cover object-center transition-all duration-300"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 550px"
+          className="object-contain p-4 sm:p-6 transition-all duration-300"
           fallbackTitle={productName}
         />
 

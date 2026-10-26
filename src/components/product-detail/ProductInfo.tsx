@@ -19,7 +19,9 @@ import {
   RotateCcw,
   MapPin,
   Flame,
+  MessageCircle,
 } from "lucide-react";
+import { buildProductInquiryWhatsAppUrl } from "@/lib/whatsapp";
 
 interface ProductInfoProps {
   product: Product;
@@ -258,7 +260,7 @@ export function ProductInfo({ product }: ProductInfoProps) {
         </div>
       </div>
 
-      {/* Ask Our Vaidya Interactive Trigger */}
+      {/* Ask Our Vaidya & WhatsApp Inquiry Interactive Trigger */}
       <div className="p-3.5 sm:p-4 rounded-lg bg-ayur-sageSubtle/70 border border-ayur-sage/30 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4">
         <div>
           <h4 className="text-xs font-bold text-ayur-primary font-sans flex items-center gap-1.5">
@@ -269,17 +271,33 @@ export function ProductInfo({ product }: ProductInfoProps) {
             Speak to an Ayurvedic doctor regarding dosage timing and your Dosha type.
           </p>
         </div>
-        <button
-          onClick={() =>
-            openConsultation({
-              concern: product.healthConcerns[0],
-              product: { name: product.name, slug: product.slug },
-            })
-          }
-          className="w-full sm:w-auto px-3.5 py-2 bg-white border border-ayur-primary text-ayur-primary hover:bg-ayur-primary hover:text-white rounded text-xs font-semibold whitespace-nowrap transition-colors shadow-xs text-center"
-        >
-          Ask our Vaidya
-        </button>
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 w-full sm:w-auto">
+          <a
+            href={buildProductInquiryWhatsAppUrl({
+              productName: product.name,
+              variantTitle: selectedVariant.title,
+              price: selectedVariant.price,
+              pageUrl: `https://sarvanatural.com/products/${product.slug}`,
+            })}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-3.5 py-2 bg-emerald-700 hover:bg-emerald-800 text-white rounded text-xs font-semibold whitespace-nowrap transition-colors shadow-xs flex items-center justify-center gap-1.5"
+          >
+            <MessageCircle className="w-3.5 h-3.5 fill-white text-emerald-700" />
+            <span>Inquire on WhatsApp</span>
+          </a>
+          <button
+            onClick={() =>
+              openConsultation({
+                concern: product.healthConcerns[0],
+                product: { name: product.name, slug: product.slug },
+              })
+            }
+            className="px-3.5 py-2 bg-white border border-ayur-primary text-ayur-primary hover:bg-ayur-primary hover:text-white rounded text-xs font-semibold whitespace-nowrap transition-colors shadow-xs text-center"
+          >
+            Ask our Vaidya
+          </button>
+        </div>
       </div>
 
       {/* Pincode Delivery Estimator */}

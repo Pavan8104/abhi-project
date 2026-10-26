@@ -12,7 +12,10 @@ import {
   CheckCircle2,
   AlertCircle,
   Award,
+  MessageCircle,
+  ExternalLink,
 } from "lucide-react";
+import { buildConsultationInquiryWhatsAppUrl } from "@/lib/whatsapp";
 import { useConsultationStore } from "@/store/useConsultationStore";
 import { VAIDYA_PROFILES, CONSULTATION_TIME_SLOTS } from "@/data/vaidyas";
 import { HEALTH_CONCERNS } from "@/data/categories";
@@ -263,14 +266,35 @@ export function VaidyaConsultationDrawer() {
                   </div>
                 </div>
 
-                {/* Submit button */}
-                <button
-                  type="submit"
-                  className="w-full py-3.5 bg-ayur-primary text-white text-xs uppercase tracking-wider font-semibold rounded hover:bg-ayur-secondary transition-colors shadow-md flex items-center justify-center gap-2"
-                >
-                  <Sparkles className="w-4 h-4 text-ayur-gold" />
-                  <span>Confirm Free Demo Consultation</span>
-                </button>
+                {/* Submit button & WhatsApp option */}
+                <div className="space-y-2 pt-1">
+                  <button
+                    type="submit"
+                    className="w-full py-3.5 bg-ayur-primary text-white text-xs uppercase tracking-wider font-semibold rounded hover:bg-ayur-secondary transition-colors shadow-md flex items-center justify-center gap-2"
+                  >
+                    <Sparkles className="w-4 h-4 text-ayur-gold" />
+                    <span>Confirm Free Demo Consultation</span>
+                  </button>
+
+                  <a
+                    href={buildConsultationInquiryWhatsAppUrl({
+                      patientName: fullName,
+                      patientPhone: phone,
+                      concern: HEALTH_CONCERNS.find((c) => c.id === selectedConcern)?.title || selectedConcern,
+                      preferredDate: selectedDate,
+                      preferredSlot: selectedSlot,
+                      preferredLanguage: selectedLanguage,
+                      notes: notes,
+                    })}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full py-3 bg-emerald-700 hover:bg-emerald-800 text-white text-xs uppercase tracking-wider font-semibold rounded transition-colors shadow-xs flex items-center justify-center gap-2"
+                  >
+                    <MessageCircle className="w-4 h-4" />
+                    <span>Book / Inquire on WhatsApp</span>
+                    <ExternalLink className="w-3.5 h-3.5 opacity-80" />
+                  </a>
+                </div>
               </form>
             ) : (
               /* Booking Confirmation View */
@@ -313,12 +337,33 @@ export function VaidyaConsultationDrawer() {
                   </div>
                 </div>
 
-                <button
-                  onClick={handleClose}
-                  className="px-6 py-2.5 bg-ayur-primary text-white text-xs font-semibold rounded hover:bg-ayur-secondary transition-colors"
-                >
-                  Close &amp; Continue Shopping
-                </button>
+                <div className="space-y-2 max-w-sm mx-auto">
+                  <a
+                    href={buildConsultationInquiryWhatsAppUrl({
+                      patientName: fullName || "Aditya Verma",
+                      patientPhone: phone || "+91 98765 43210",
+                      concern: HEALTH_CONCERNS.find((c) => c.id === selectedConcern)?.title || selectedConcern,
+                      preferredDate: selectedDate,
+                      preferredSlot: selectedSlot,
+                      preferredLanguage: selectedLanguage,
+                      notes: `Booking Reference: ${bookingRef}`,
+                    })}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full py-2.5 bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-semibold rounded transition-colors flex items-center justify-center gap-1.5 shadow-sm"
+                  >
+                    <MessageCircle className="w-4 h-4" />
+                    <span>Confirm Slot on WhatsApp</span>
+                    <ExternalLink className="w-3.5 h-3.5 opacity-80" />
+                  </a>
+
+                  <button
+                    onClick={handleClose}
+                    className="w-full px-6 py-2.5 bg-ayur-primary text-white text-xs font-semibold rounded hover:bg-ayur-secondary transition-colors"
+                  >
+                    Close &amp; Continue Shopping
+                  </button>
+                </div>
               </div>
             )}
           </div>

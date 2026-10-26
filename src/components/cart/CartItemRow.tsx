@@ -28,7 +28,7 @@ export function CartItemRow({ item, onItemClick }: CartItemRowProps) {
           src={item.product.images[0]}
           alt={item.product.name}
           fill
-          className="object-cover"
+          className="object-contain p-1"
           fallbackTitle={item.product.name}
         />
       </Link>

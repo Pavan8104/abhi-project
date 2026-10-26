@@ -20,7 +20,7 @@ export function ToastContainer() {
     <div
       role="status"
       aria-live="polite"
-      className="fixed bottom-6 right-6 z-50 max-w-sm w-full animate-in fade-in slide-in-from-bottom-4 duration-300 pointer-events-auto"
+      className="fixed bottom-20 sm:bottom-24 right-4 sm:right-6 z-50 max-w-sm w-full animate-in fade-in slide-in-from-bottom-4 duration-300 pointer-events-auto"
     >
       <div
         className={cn(

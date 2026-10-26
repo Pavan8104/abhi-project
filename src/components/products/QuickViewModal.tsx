@@ -2,7 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
-import { X, Check, ShoppingBag, Heart, Sparkles } from "lucide-react";
+import { X, Check, ShoppingBag, Heart, Sparkles, MessageCircle } from "lucide-react";
+import { buildProductInquiryWhatsAppUrl } from "@/lib/whatsapp";
 import { useUIStore } from "@/store/useUIStore";
 import { useCartStore } from "@/store/useCartStore";
 import { useWishlistStore } from "@/store/useWishlistStore";
@@ -79,7 +80,7 @@ export function QuickViewModal() {
                   src={quickViewProduct.images[selectedImageIndex] || quickViewProduct.images[0]}
                   alt={quickViewProduct.name}
                   fill
-                  className="object-cover object-center"
+                  className="object-contain p-3 sm:p-4"
                   fallbackTitle={quickViewProduct.name}
                 />
                 {quickViewProduct.isBestseller && (
@@ -105,7 +106,7 @@ export function QuickViewModal() {
                         src={img}
                         alt="Thumbnail"
                         fill
-                        className="object-cover"
+                        className="object-contain p-1"
                       />
                     </button>
                   ))}
@@ -246,20 +247,37 @@ export function QuickViewModal() {
                   </button>
                 </div>
 
-                <div className="flex items-center justify-between text-xs pt-1">
-                  <button
-                    onClick={handleAskVaidya}
-                    className="text-ayur-secondary hover:text-ayur-primary font-medium flex items-center gap-1 underline underline-offset-2"
-                  >
-                    <Sparkles className="w-3.5 h-3.5 text-ayur-gold" />
-                    <span>Ask Vaidya about this formulation</span>
-                  </button>
+                <div className="flex flex-wrap items-center justify-between text-xs pt-1 gap-2">
+                  <div className="flex items-center gap-3">
+                    <button
+                      onClick={handleAskVaidya}
+                      className="text-ayur-secondary hover:text-ayur-primary font-medium flex items-center gap-1 underline underline-offset-2"
+                    >
+                      <Sparkles className="w-3.5 h-3.5 text-ayur-gold" />
+                      <span>Ask Vaidya</span>
+                    </button>
+                    <span className="text-stone-300">•</span>
+                    <a
+                      href={buildProductInquiryWhatsAppUrl({
+                        productName: quickViewProduct.name,
+                        variantTitle: selectedVariant.title,
+                        price: selectedVariant.price,
+                        pageUrl: `https://sarvanatural.com/products/${quickViewProduct.slug}`,
+                      })}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-emerald-700 hover:text-emerald-800 font-semibold flex items-center gap-1"
+                    >
+                      <MessageCircle className="w-3.5 h-3.5" />
+                      <span>Inquire on WhatsApp</span>
+                    </a>
+                  </div>
                   <Link
                     href={`/products/${quickViewProduct.slug}`}
                     onClick={closeQuickView}
                     className="text-ayur-muted hover:text-ayur-dark underline underline-offset-2"
                   >
-                    Full Details &amp; Ingredients &rarr;
+                    Full Details &rarr;
                   </Link>
                 </div>
               </div>

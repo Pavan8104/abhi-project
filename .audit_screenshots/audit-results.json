@@ -1,0 +1,6250 @@
+[
+  {
+    "route": "/",
+    "width": 320,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 354,
+      "scrollWidth": 354,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 16,
+            "right": 400,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 320,
+        "offsetWidth": 320,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 4,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 360,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 56,
+            "right": 440,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 360,
+        "offsetWidth": 360,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 375,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 71,
+            "right": 455,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 375,
+        "offsetWidth": 375,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 86,
+            "right": 470,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 390,
+        "offsetWidth": 390,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 414,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 414,
+      "scrollWidth": 414,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 110,
+            "right": 494,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 414,
+        "offsetWidth": 414,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 430,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 430,
+      "scrollWidth": 430,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 126,
+            "right": 510,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 430,
+        "offsetWidth": 430,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 480,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 480,
+      "scrollWidth": 480,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 176,
+            "right": 560,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 480,
+        "offsetWidth": 480,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 640,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 640,
+      "scrollWidth": 640,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 336,
+            "right": 720,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 217,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 640,
+        "offsetWidth": 640,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 0,
+      "sampleSmallTouchTargets": []
+    }
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 464,
+            "right": 848,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 768,
+        "offsetWidth": 768,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 0,
+      "sampleSmallTouchTargets": []
+    }
+  },
+  {
+    "route": "/",
+    "width": 820,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 820,
+      "scrollWidth": 820,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 516,
+            "right": 900,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 820,
+        "offsetWidth": 820,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 0,
+      "sampleSmallTouchTargets": []
+    }
+  },
+  {
+    "route": "/",
+    "width": 1024,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1024,
+      "scrollWidth": 1018,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 714,
+            "right": 1098,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1018,
+        "offsetWidth": 1018,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 8,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 36,
+          "height": 40
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 1280,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1280,
+      "scrollWidth": 1274,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 970,
+            "right": 1354,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1274,
+        "offsetWidth": 1274,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 10,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1440,
+      "scrollWidth": 1434,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 1130,
+            "right": 1514,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1434,
+        "offsetWidth": 1434,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 10,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/",
+    "width": 1920,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1920,
+      "scrollWidth": 1914,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 1,
+      "topOverflowingElements": [
+        {
+          "tag": "div",
+          "className": "absolute -right-20 -bottom-20 w-96 h-96 rounded-full bg-ayur-gold/10 blur-3xl po",
+          "rect": {
+            "left": 1610,
+            "right": 1994,
+            "width": 384
+          },
+          "text": ""
+        }
+      ],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1914,
+        "offsetWidth": 1914,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 7,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 56,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 320,
+    "height": 800
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 360,
+    "height": 800
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 375,
+    "height": 800
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 390,
+    "height": 800
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 414,
+    "height": 800
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 430,
+    "height": 800
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 480,
+    "height": 800
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 640,
+    "height": 900
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 768,
+    "height": 900
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 820,
+    "height": 900
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 1024,
+    "height": 1000
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 1280,
+    "height": 1000
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "route": "/collections/all-products",
+    "width": 1920,
+    "height": 1000
+  },
+  {
+    "route": "/products/moringa",
+    "width": 320,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 354,
+      "scrollWidth": 354,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 320,
+        "offsetWidth": 320,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 8,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 360,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 403,
+      "scrollWidth": 403,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 360,
+        "offsetWidth": 360,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 375,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 375,
+        "offsetWidth": 375,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 390,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 390,
+        "offsetWidth": 390,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 414,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 414,
+      "scrollWidth": 414,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 414,
+        "offsetWidth": 414,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 430,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 430,
+      "scrollWidth": 430,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 430,
+        "offsetWidth": 430,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 480,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 480,
+      "scrollWidth": 480,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 480,
+        "offsetWidth": 480,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 640,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 640,
+      "scrollWidth": 640,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 217,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 640,
+        "offsetWidth": 640,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 3,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Herbal Wellness Capsules",
+          "width": 146,
+          "height": 16
+        },
+        {
+          "tag": "button",
+          "text": "Remove from wishlist",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 768,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 768,
+        "offsetWidth": 768,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 2,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Herbal Wellness Capsules",
+          "width": 146,
+          "height": 16
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 820,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 820,
+      "scrollWidth": 820,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 820,
+        "offsetWidth": 820,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 2,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Herbal Wellness Capsules",
+          "width": 146,
+          "height": 16
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 1024,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1024,
+      "scrollWidth": 1018,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1018,
+        "offsetWidth": 1018,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 12,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 36,
+          "height": 40
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 24
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 1280,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1280,
+      "scrollWidth": 1274,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1274,
+        "offsetWidth": 1274,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 14,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 24
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 1440,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1440,
+      "scrollWidth": 1434,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1434,
+        "offsetWidth": 1434,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 14,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 24
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/moringa",
+    "width": 1920,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1920,
+      "scrollWidth": 1914,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1914,
+        "offsetWidth": 1914,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 11,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 24
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 56,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 320,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 354,
+      "scrollWidth": 354,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 320,
+        "offsetWidth": 320,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 8,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 360,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 403,
+      "scrollWidth": 403,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 360,
+        "offsetWidth": 360,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 375,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 375,
+        "offsetWidth": 375,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 390,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 390,
+        "offsetWidth": 390,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 414,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 414,
+      "scrollWidth": 414,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 414,
+        "offsetWidth": 414,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 430,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 430,
+      "scrollWidth": 430,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 430,
+        "offsetWidth": 430,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 480,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 480,
+      "scrollWidth": 480,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 480,
+        "offsetWidth": 480,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 640,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 640,
+      "scrollWidth": 640,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 217,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 640,
+        "offsetWidth": 640,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 3,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Herbal Wellness Capsules",
+          "width": 146,
+          "height": 16
+        },
+        {
+          "tag": "button",
+          "text": "Add to wishlist",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 768,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 768,
+        "offsetWidth": 768,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 2,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Herbal Wellness Capsules",
+          "width": 146,
+          "height": 16
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 820,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 820,
+      "scrollWidth": 820,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 820,
+        "offsetWidth": 820,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 2,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Herbal Wellness Capsules",
+          "width": 146,
+          "height": 16
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 1024,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1024,
+      "scrollWidth": 1018,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1018,
+        "offsetWidth": 1018,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 12,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 36,
+          "height": 40
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 24
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 1280,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1280,
+      "scrollWidth": 1274,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1274,
+        "offsetWidth": 1274,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 14,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 24
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 1440,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1440,
+      "scrollWidth": 1434,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1434,
+        "offsetWidth": 1434,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 14,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 24
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/triphala",
+    "width": 1920,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1920,
+      "scrollWidth": 1914,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1914,
+        "offsetWidth": 1914,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 11,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 24
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 56,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 320,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 354,
+      "scrollWidth": 354,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 320,
+        "offsetWidth": 320,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 8,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 360,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 360,
+        "offsetWidth": 360,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 375,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 375,
+        "offsetWidth": 375,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 390,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 390,
+        "offsetWidth": 390,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 414,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 414,
+      "scrollWidth": 414,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 414,
+        "offsetWidth": 414,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 430,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 430,
+      "scrollWidth": 430,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 430,
+        "offsetWidth": 430,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 480,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 480,
+      "scrollWidth": 480,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 480,
+        "offsetWidth": 480,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 640,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 640,
+      "scrollWidth": 640,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 217,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 640,
+        "offsetWidth": 640,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 3,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Herbal Wellness Capsules",
+          "width": 146,
+          "height": 16
+        },
+        {
+          "tag": "button",
+          "text": "Remove from wishlist",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 768,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 768,
+        "offsetWidth": 768,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 2,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Herbal Wellness Capsules",
+          "width": 146,
+          "height": 16
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 820,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 820,
+      "scrollWidth": 820,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 820,
+        "offsetWidth": 820,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 2,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Home",
+          "width": 35,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Herbal Wellness Capsules",
+          "width": 146,
+          "height": 16
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 1024,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1024,
+      "scrollWidth": 1018,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1018,
+        "offsetWidth": 1018,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 12,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 36,
+          "height": 40
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 24
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 1280,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1280,
+      "scrollWidth": 1274,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1274,
+        "offsetWidth": 1274,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 14,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 1440,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1440,
+      "scrollWidth": 1434,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1434,
+        "offsetWidth": 1434,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 14,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/products/ashwagandha",
+    "width": 1920,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1920,
+      "scrollWidth": 1914,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1914,
+        "offsetWidth": 1914,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 11,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 24
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 56,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 320,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 354,
+      "scrollWidth": 354,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 320,
+        "offsetWidth": 320,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 4,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 360,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 403,
+      "scrollWidth": 403,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 360,
+        "offsetWidth": 360,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 375,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 375,
+        "offsetWidth": 375,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 390,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 403,
+      "scrollWidth": 403,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 390,
+        "offsetWidth": 390,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 414,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 414,
+      "scrollWidth": 414,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 414,
+        "offsetWidth": 414,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 430,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 430,
+      "scrollWidth": 430,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 430,
+        "offsetWidth": 430,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 480,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 480,
+      "scrollWidth": 480,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 480,
+        "offsetWidth": 480,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 640,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 640,
+      "scrollWidth": 640,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 217,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 640,
+        "offsetWidth": 640,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 0,
+      "sampleSmallTouchTargets": []
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 768,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 768,
+        "offsetWidth": 768,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 0,
+      "sampleSmallTouchTargets": []
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 820,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 820,
+      "scrollWidth": 820,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 820,
+        "offsetWidth": 820,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 0,
+      "sampleSmallTouchTargets": []
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 1024,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1024,
+      "scrollWidth": 1018,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1018,
+        "offsetWidth": 1018,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 7,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 36,
+          "height": 40
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 1280,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1280,
+      "scrollWidth": 1274,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1274,
+        "offsetWidth": 1274,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 1440,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1440,
+      "scrollWidth": 1434,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1434,
+        "offsetWidth": 1434,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 9,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/cart",
+    "width": 1920,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1920,
+      "scrollWidth": 1914,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1914,
+        "offsetWidth": 1914,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 6,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 56,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 320,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 354,
+      "scrollWidth": 354,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 320,
+        "offsetWidth": 320,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 5,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Chat Now",
+          "width": 92,
+          "height": 28
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 360,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 403,
+      "scrollWidth": 403,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 360,
+        "offsetWidth": 360,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 6,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 375,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 375,
+        "offsetWidth": 375,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 6,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 390,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 403,
+      "scrollWidth": 403,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 390,
+        "offsetWidth": 390,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 6,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 414,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 414,
+      "scrollWidth": 414,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 414,
+        "offsetWidth": 414,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 6,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 430,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 430,
+      "scrollWidth": 430,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 430,
+        "offsetWidth": 430,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 6,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 480,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 480,
+      "scrollWidth": 480,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 480,
+        "offsetWidth": 480,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 6,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 640,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 640,
+      "scrollWidth": 640,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 217,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 640,
+        "offsetWidth": 640,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 1,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Chat Now",
+          "width": 92,
+          "height": 28
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 768,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 768,
+        "offsetWidth": 768,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 1,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Chat Now",
+          "width": 92,
+          "height": 28
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 820,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 820,
+      "scrollWidth": 820,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 820,
+        "offsetWidth": 820,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 1,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Chat Now",
+          "width": 92,
+          "height": 28
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 1024,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1024,
+      "scrollWidth": 1018,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1018,
+        "offsetWidth": 1018,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 12,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 36,
+          "height": 40
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 1280,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1280,
+      "scrollWidth": 1274,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1274,
+        "offsetWidth": 1274,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 14,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 1440,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1440,
+      "scrollWidth": 1434,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1434,
+        "offsetWidth": 1434,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 14,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/pages/contact-us",
+    "width": 1920,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1920,
+      "scrollWidth": 1914,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1914,
+        "offsetWidth": 1914,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 11,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 56,
+          "height": 24
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 320,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 354,
+      "scrollWidth": 354,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 320,
+        "offsetWidth": 320,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 6,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Book with Acharya →",
+          "width": 196,
+          "height": 38
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 360,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 360,
+        "offsetWidth": 360,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 7,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 375,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 375,
+        "offsetWidth": 375,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 7,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 390,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 396,
+      "scrollWidth": 396,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 390,
+        "offsetWidth": 390,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 66,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 7,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 414,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 414,
+      "scrollWidth": 414,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 414,
+        "offsetWidth": 414,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 7,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 430,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 430,
+      "scrollWidth": 430,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 430,
+        "offsetWidth": 430,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 7,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 480,
+    "height": 800,
+    "metrics": {
+      "innerWidth": 480,
+      "scrollWidth": 480,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 65,
+        "logoVisible": true,
+        "logoWidth": 172,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 480,
+        "offsetWidth": 480,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 20,
+        "right": 20,
+        "width": 194,
+        "height": 58,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 7,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Search formulations",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Patron Account",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "2",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Cart with 0 items, total ₹0",
+          "width": 36,
+          "height": 36
+        },
+        {
+          "tag": "button",
+          "text": "Toggle navigation menu",
+          "width": 36,
+          "height": 36
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 640,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 640,
+      "scrollWidth": 640,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 217,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 640,
+        "offsetWidth": 640,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 2,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Book with Acharya →",
+          "width": 409,
+          "height": 38
+        },
+        {
+          "tag": "a",
+          "text": "WhatsApp",
+          "width": 109,
+          "height": 38
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 768,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 768,
+        "offsetWidth": 768,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 4,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Book with Acharya →",
+          "width": 161,
+          "height": 38
+        },
+        {
+          "tag": "a",
+          "text": "WhatsApp",
+          "width": 109,
+          "height": 38
+        },
+        {
+          "tag": "button",
+          "text": "Book with Priyamvada →",
+          "width": 161,
+          "height": 38
+        },
+        {
+          "tag": "a",
+          "text": "WhatsApp",
+          "width": 109,
+          "height": 38
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 820,
+    "height": 900,
+    "metrics": {
+      "innerWidth": 820,
+      "scrollWidth": 820,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": 0,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 81,
+        "logoVisible": true,
+        "logoWidth": 219,
+        "hamburgerVisible": true,
+        "desktopNavVisible": false
+      },
+      "announcementInfo": {
+        "scrollWidth": 820,
+        "offsetWidth": 820,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 24,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 4,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "button",
+          "text": "Book with Acharya →",
+          "width": 187,
+          "height": 38
+        },
+        {
+          "tag": "a",
+          "text": "WhatsApp",
+          "width": 109,
+          "height": 38
+        },
+        {
+          "tag": "button",
+          "text": "Book with Priyamvada →",
+          "width": 187,
+          "height": 38
+        },
+        {
+          "tag": "a",
+          "text": "WhatsApp",
+          "width": 109,
+          "height": 38
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 1024,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1024,
+      "scrollWidth": 1018,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1018,
+        "offsetWidth": 1018,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 11,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 36,
+          "height": 40
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 1280,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1280,
+      "scrollWidth": 1274,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1274,
+        "offsetWidth": 1274,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 13,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 1440,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1440,
+      "scrollWidth": 1434,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1434,
+        "offsetWidth": 1434,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 13,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Shop All",
+          "width": 54,
+          "height": 20
+        },
+        {
+          "tag": "button",
+          "text": "Our Formulations",
+          "width": 133,
+          "height": 36
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        }
+      ]
+    }
+  },
+  {
+    "route": "/consultation",
+    "width": 1920,
+    "height": 1000,
+    "metrics": {
+      "innerWidth": 1920,
+      "scrollWidth": 1914,
+      "hasHorizontalOverflow": false,
+      "overflowDelta": -6,
+      "overflowingElementsCount": 0,
+      "topOverflowingElements": [],
+      "navbarInfo": {
+        "headerHeight": 97,
+        "logoVisible": true,
+        "logoWidth": 257,
+        "hamburgerVisible": false,
+        "desktopNavVisible": true
+      },
+      "announcementInfo": {
+        "scrollWidth": 1914,
+        "offsetWidth": 1914,
+        "overflows": false
+      },
+      "catalogInfo": null,
+      "botWidgetInfo": {
+        "bottom": 24,
+        "right": 30,
+        "width": 198,
+        "height": 62,
+        "visible": true
+      },
+      "smallTouchTargetsCount": 10,
+      "sampleSmallTouchTargets": [
+        {
+          "tag": "a",
+          "text": "Consult a Vaidya",
+          "width": 102,
+          "height": 16
+        },
+        {
+          "tag": "a",
+          "text": "Moringa",
+          "width": 55,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Triphala",
+          "width": 52,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Ashwagandha",
+          "width": 95,
+          "height": 20
+        },
+        {
+          "tag": "a",
+          "text": "Contact",
+          "width": 56,
+          "height": 20
+        }
+      ]
+    }
+  }
+]

@@ -8,6 +8,7 @@ import { WishlistDrawer } from "@/components/wishlist/WishlistDrawer";
 import { SearchModal } from "@/components/search/SearchModal";
 import { QuickViewModal } from "@/components/products/QuickViewModal";
 import { ToastContainer } from "@/components/common/Toast";
+import { FemaleVaidyaChatbot } from "@/components/chat/FemaleVaidyaChatbot";
 
 export function StoreProviders({ children }: { children: React.ReactNode }) {
   const [mounted, setMounted] = useState(false);
@@ -28,6 +29,7 @@ export function StoreProviders({ children }: { children: React.ReactNode }) {
           <SearchModal />
           <QuickViewModal />
           <ToastContainer />
+          <FemaleVaidyaChatbot />
         </>
       )}
     </>

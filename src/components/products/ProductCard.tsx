@@ -69,7 +69,7 @@ export function ProductCard({ product, viewMode = "grid" }: ProductCardProps) {
             alt={product.name}
             fill
             sizes="(max-width: 640px) 100vw, 200px"
-            className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+            className="object-contain p-2 group-hover:scale-105 transition-transform duration-500"
             fallbackTitle={product.name}
           />
           {product.isBestseller && (
@@ -202,8 +202,8 @@ export function ProductCard({ product, viewMode = "grid" }: ProductCardProps) {
           }
           alt={product.name}
           fill
-          sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-          className="object-cover object-center transition-all duration-700 group-hover:scale-105"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="object-contain p-2.5 sm:p-3.5 transition-all duration-700 group-hover:scale-105"
           fallbackTitle={product.name}
         />
 

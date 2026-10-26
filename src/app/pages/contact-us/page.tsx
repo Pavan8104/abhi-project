@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Clock, CheckCircle2, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Clock, CheckCircle2, Send, MessageCircle, ExternalLink } from "lucide-react";
+import { buildContactUsWhatsAppUrl, WHATSAPP_CONFIG } from "@/lib/whatsapp";
 
 export default function ContactUsPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -72,6 +73,32 @@ export default function ContactUsPage() {
                   <span className="block text-stone-400 text-[11px]">Sunday: Closed (Vedic Observance)</span>
                 </div>
               </div>
+
+              {/* Dedicated WhatsApp Support Card */}
+              <div className="pt-3 border-t border-stone-200">
+                <div className="p-3 bg-emerald-50/80 rounded-lg border border-emerald-200 flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-2.5">
+                    <MessageCircle className="w-4 h-4 text-emerald-700 flex-shrink-0" />
+                    <div>
+                      <strong className="block text-xs text-emerald-950 font-semibold">WhatsApp Care Desk:</strong>
+                      <span className="text-[11px] text-emerald-800 font-mono">{WHATSAPP_CONFIG.displayNumber}</span>
+                    </div>
+                  </div>
+                  <a
+                    href={buildContactUsWhatsAppUrl({
+                      name: formData.name,
+                      subject: formData.subject,
+                      message: "Namaste SARVA NATURAL, I would like assistance with an inquiry.",
+                    })}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-3 py-1.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded text-[11px] font-semibold transition-colors flex items-center gap-1 shadow-xs flex-shrink-0"
+                  >
+                    <span>Chat Now</span>
+                    <ExternalLink className="w-3 h-3" />
+                  </a>
+                </div>
+              </div>
             </div>
 
             <div className="p-4 rounded-lg bg-ayur-sageSubtle border border-ayur-sage/30 text-xs text-ayur-primary">
@@ -94,15 +121,32 @@ export default function ContactUsPage() {
                   <p className="text-xs text-stone-600 max-w-md mx-auto mb-6">
                     Namaste, {formData.name || "Patron"}. Thank you for contacting SARVA NATURAL. Our team will review your inquiry and get back to you within 24 business hours.
                   </p>
-                  <button
-                    onClick={() => {
-                      setSubmitted(false);
-                      setFormData({ name: "", email: "", phone: "", subject: "Product Inquiry", message: "" });
-                    }}
-                    className="px-5 py-2.5 bg-ayur-primary text-white rounded text-xs font-semibold hover:bg-ayur-secondary transition-colors"
-                  >
-                    Send Another Message
-                  </button>
+                  <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+                    <a
+                      href={buildContactUsWhatsAppUrl({
+                        name: formData.name,
+                        email: formData.email,
+                        phone: formData.phone,
+                        subject: formData.subject,
+                        message: formData.message || "Following up on my submitted inquiry.",
+                      })}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full sm:w-auto px-5 py-2.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded text-xs font-semibold flex items-center justify-center gap-1.5 transition-colors shadow-xs"
+                    >
+                      <MessageCircle className="w-3.5 h-3.5" />
+                      <span>Continue on WhatsApp</span>
+                    </a>
+                    <button
+                      onClick={() => {
+                        setSubmitted(false);
+                        setFormData({ name: "", email: "", phone: "", subject: "Product Inquiry", message: "" });
+                      }}
+                      className="w-full sm:w-auto px-5 py-2.5 bg-ayur-parchment hover:bg-ayur-sand/80 text-ayur-dark border border-ayur-sand rounded text-xs font-semibold transition-colors"
+                    >
+                      Send Another Message
+                    </button>
+                  </div>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-4">
@@ -187,13 +231,30 @@ export default function ContactUsPage() {
                     />
                   </div>
 
-                  <button
-                    type="submit"
-                    className="w-full py-3 bg-ayur-primary text-white font-semibold text-xs uppercase tracking-wider rounded hover:bg-ayur-secondary transition-colors flex items-center justify-center gap-2 shadow-sm"
-                  >
-                    <Send className="w-3.5 h-3.5" />
-                    <span>Send Inquiry</span>
-                  </button>
+                  <div className="flex flex-col sm:flex-row gap-3 pt-2">
+                    <button
+                      type="submit"
+                      className="flex-1 py-3 bg-ayur-primary text-white font-semibold text-xs uppercase tracking-wider rounded hover:bg-ayur-secondary transition-colors flex items-center justify-center gap-2 shadow-sm"
+                    >
+                      <Send className="w-3.5 h-3.5" />
+                      <span>Send Inquiry</span>
+                    </button>
+                    <a
+                      href={buildContactUsWhatsAppUrl({
+                        name: formData.name,
+                        email: formData.email,
+                        phone: formData.phone,
+                        subject: formData.subject,
+                        message: formData.message || "Namaste, I have an inquiry for SARVA NATURAL.",
+                      })}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 py-3 bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-xs uppercase tracking-wider rounded transition-colors flex items-center justify-center gap-2 shadow-sm"
+                    >
+                      <MessageCircle className="w-3.5 h-3.5" />
+                      <span>Inquire via WhatsApp</span>
+                    </a>
+                  </div>
                 </form>
               )}
             </div>
