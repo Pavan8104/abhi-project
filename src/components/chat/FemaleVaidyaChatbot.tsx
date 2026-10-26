@@ -2,20 +2,17 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import {
-  X,
   Send,
   Sparkles,
   MessageCircle,
   ShieldCheck,
   ChevronDown,
   ExternalLink,
-  Bot,
   RefreshCw,
 } from "lucide-react";
 import {
   queryVaidyaKnowledgeBase,
   SUGGESTED_QUICK_QUESTIONS,
-  VAIDYA_DISCLAIMER,
 } from "@/data/vaidyaKnowledge";
 import {
   buildBotEscalationWhatsAppUrl,
